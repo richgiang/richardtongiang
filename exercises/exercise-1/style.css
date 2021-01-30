@@ -1,0 +1,21 @@
+h1{
+    color: #4A442D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    color:#4A442D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+a{
+    color: #4A442D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-color: #58B09C;
+}
