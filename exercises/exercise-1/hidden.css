@@ -1,0 +1,32 @@
+.hidden-link:hover{
+    background-color: #4A442D ;
+    font-weight: 600;
+    color: #58B09C
+}
+
+a{
+    color: #4A442D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+h1{
+    color: #4A442D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    color:#4A442D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-color: #58B09C;
+}
+
+.hidden-link{
+    text-decoration: none;
+    font-weight: 300;
+}
