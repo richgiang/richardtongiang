@@ -1,0 +1,19 @@
+h1{
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+    color: #4f945b
+}
+
+div{
+    text-align: right;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+    color: #4f945b;
+}
+
+p{
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    color: #ec5800;
+}

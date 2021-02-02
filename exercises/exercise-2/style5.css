@@ -1,0 +1,28 @@
+h1 {
+	display: inline;
+	position: relative;
+	font: 100px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+    color: rgba(235, 171, 75, 0.5);
+}
+
+h1:after {
+	content: "Persimmons";
+	position: absolute; left: 10px; top: 5px;
+    color: rgba(255,0,0,0.5);   
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    font: 15px Helvetica, Sans-Serif;
+    color: rgba(255,0,0,0.5);
+}
+
+div{
+    text-align: center;
+    content: "Persimmons";
+    font: 20px Helvetica, Sans-Serif;
+    color: rgba(235, 171, 75, 0.5);   
+    text-align: left;
+}
