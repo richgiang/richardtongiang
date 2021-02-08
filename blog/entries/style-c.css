@@ -1,0 +1,68 @@
+h1{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    color: #6B705C;
+    text-align: center;
+}
+
+p{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    color: #6B705C;
+    text-align: left;
+}
+
+div{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    color: #6B705C;
+}
+
+body{
+    background-color: #FFE8D6;
+}
+
+h4{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    color: #6B705C;
+}
+
+h2{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    color: #6B705C;
+    text-align: center;
+    font-size: 15px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: main; }
+.item3 { grid-area: right; }
+.item4 { grid-area: footer; }
+.item5 { grid-area: footer1; } 
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'main main right right'
+    'footer footer footer1 footer1';
+  grid-gap: 25px;
+  padding: 50px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 20px;
+}
+
+a{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    color: #6B705C;
+    text-align: center;
+}
+
+
