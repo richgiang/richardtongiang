@@ -40,7 +40,6 @@ h2{
 .item2 { grid-area: main; }
 .item3 { grid-area: right; }
 .item4 { grid-area: footer; }
-.item5 { grid-area: footer1; } 
 
 .grid-container {
   display: grid;
