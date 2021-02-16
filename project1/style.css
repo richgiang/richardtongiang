@@ -1,5 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 .background{
-      background-color: #FFE8D6;
+      background-color: #6B705C;
   }
 
 @font-face{
@@ -8,7 +16,7 @@
 }
 @font-face{
     font-family: Subhead;
-    src: url(fonts/Prompt-SemiBold.ttf);
+    src: url(fonts/Prompt-Medium.ttf);
 }
 @font-face{
     font-family: Body;
@@ -29,15 +37,18 @@
 .intro{
     display: grid;
     grid-template-columns: 32vw auto 32vw;
-    text-align: center;
-    padding: 0%;
+    align-items: center;
+    justify-content:center;
+    padding: 0;
+    margin: 0;
 }
 #intro{
-    text-align: center;
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 /* flexbox for horizontal scrolling */
@@ -55,21 +66,121 @@
     flex: 0 0 auto;
   }
 
+/* statement grid  */
+
+.statement-container{
+    display: grid;
+    grid-template-columns: 45vw 45vw ;
+    grid-template-rows: auto 40vh; 
+    padding-top: 20vh;
+    padding-bottom: 4vh;
+}
+
+#regular{
+    font-family: Regular;
+    font-size: 32px;
+}
+
+.statement{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.name{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-content: baseline;
+}
+
+#name{
+    font-family: Header;
+    font-size: 75px;
+}
+
+
+/* rotated text grid  */
+
+#vertical-text-container{
+    padding: 0;
+    margin: 0;
+    transform: rotate(270deg);
+    z-index: -1;
+}
+#vertical-text{
+    align-items: center;
+    justify-content: center;
+}
+
+.rotated-text{
+    font-family: Header;
+    font-size: 100px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+/* finish your food  */
+
+.finishfood{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content:center;
+    padding-top: 13vh;
+    padding-bottom: 10vh;
+    margin: 0;
+    grid-gap: 4vh;
+}
+#finish1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+#finish2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+#finish3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.finish-style{
+    font-family: Header;
+    font-size: 20vh;
+    text-transform: uppercase;
+}
+
 
 /* portfolio grid */
 
 .portfolio-container{
     display: grid;
-    grid-template-columns: 25vw auto;
-    grid-template-rows: 20vw auto; 
-    grid-gap: 10px;
-    padding: 100px;
+    grid-template-columns: 20vw auto;
+    grid-template-rows: 25vh auto; 
+    grid-gap: 70px;
+    padding-top: 100px;
+    padding-bottom: 4vh;
 }
 .portfolio-image { 
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 3;
 }
 .portfolio-text { 
     grid-column-start: 1;
@@ -79,13 +190,43 @@
     vertical-align: text-bottom;
 }
 
+#header{
+    font-family: Header;
+    font-size: 55.5px;
+    text-align: right;
+}
+
+#subhead{
+    font-family: Header;
+    font-size: 30px;
+    text-align: right;
+}
+
+#subtitle{
+    font-family: Subhead;
+    font-size: 17.5px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#body{
+    font-family: Body;
+    font-size: 12px;
+    text-align: left;
+}
+
+.caption{
+    font-size: 12px;
+    font-family: Body;
+}
+
 
 /* nav bar  */
 
 .navbar {
     display:grid;
     grid-template-columns: auto auto auto;
-    padding-top: 10px;
+    padding-top: 5px;
     width: 100vw;
     position: fixed;
   }
@@ -107,14 +248,14 @@
 .navbar a{
     font-family: Nav;
     text-decoration: none;
-    color: #6B705C;
+    color: #FFE8D6;
 }
 
-  .navbar li {
+.navbar li {
     display: inline-block;
     font-size: 16px;
     padding-top: 10px;
-  }
+}
 
 
   @media screen and (max-width: 500px) {
@@ -124,4 +265,33 @@
       width: 100%;
     }
 }
+
+/* parallax */
+
+.parallax {
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
   
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .parallax-layer-base {
+    transform: translateZ(0);
+  }
+  
+  .parallax-layer-back {
+    transform: translateZ(-1px) scale(2);
+  }
+  
+  .parallax-layer-deep {
+    transform: translateZ(-2px) scale(3);
+  }
