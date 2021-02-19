@@ -42,7 +42,8 @@ body{
     justify-content:center;
     margin: 0;
     width: 100vw;
-    padding-left: 33vw;
+    padding-top: 5vh;
+    padding-left: 31vw;
     padding-right: 33vw;
 }
 #intro{
@@ -124,10 +125,6 @@ body{
     z-index: -1;
     width: 100vh;
 }
-/* #vertical-text{
-    align-items: center;
-    justify-content: center;
-} */
 
 .rotated-text{
     font-family: Header;
@@ -142,6 +139,7 @@ body{
 .finishfood{
     display: grid;
     grid-template-rows: auto auto auto;
+    grid-template-columns: 10vw auto auto 10vw;
     align-items: center;
     justify-content:center;
     padding-top: 8vh;
@@ -151,6 +149,8 @@ body{
 #finish1{
     grid-row-start: 1;
     grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -159,6 +159,8 @@ body{
 #finish2{
     grid-row-start: 2;
     grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -167,6 +169,8 @@ body{
 #finish3{
     grid-row-start: 3;
     grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -188,48 +192,45 @@ body{
     grid-template-rows: 25vh auto; 
     grid-gap: 70px;
     padding-top: 100px;
+    justify-content: left;
 }
 .portfolio-image { 
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    z-index: -1;
 }
 .portfolio-text { 
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    vertical-align: text-bottom;
 }
 
 #header{
     font-family: Header;
-    font-size: 55.5px;
-    text-align: right;
+    font-size: 8vw;
 }
 
 #subhead{
     font-family: Header;
-    font-size: 30px;
-    text-align: right;
+    font-size: 4vw;
 }
 
 #subtitle{
     font-family: Subhead;
     font-size: 17.5px;
-    text-align: right;
     text-transform: uppercase;
 }
 
 #body{
     font-family: Body;
     font-size: 12px;
-    text-align: left;
 }
 
 button{
-    background-color: #6B705C;
+    background-color: transparent;
     font-family: Nav;
     border-color: black;
     border-radius: 8px;
@@ -298,32 +299,30 @@ button:active{
     }
 }
 
-/* parallax */
+/* about me grid */
 
-.parallax {
-    height: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-perspective: 1px;
-    perspective: 1px;
-  }
-  
-  .parallax-layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .parallax-layer-base {
-    transform: translateZ(0);
-  }
-  
-  .parallax-layer-back {
-    transform: translateZ(-1px) scale(2);
-  }
-  
-  .parallax-layer-deep {
-    transform: translateZ(-2px) scale(3);
-  }
+#aboutme-container{
+    display: grid;
+    grid-template-columns: 30vw auto;
+    width: 70vw;
+    padding-left: 150px;
+    padding-top: 150px;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items:flex-start;
+}
+.aboutme-text p{
+    font-family: Body;
+    font-size: 14px;
+}
+.aboutme-text h1{
+    font-family: Header;
+    font-size: 35px;
+}
+.aboutme-image-container{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+

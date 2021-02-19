@@ -1,4 +1,13 @@
-let parallaxIntensity = -10;
+document.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    let scrollElem = $('.scrolling-wrapper-flexbox');
+    let elemScrollPosition = scrollElem.scrollLeft(); // Get the current position of the scrolling element
+    let updatedScrollPosition = elemScrollPosition + e.deltaY; // Add the delta from mouse wheel to current scroll position
+    scrollElem.scrollLeft(updatedScrollPosition); // Update the scroll value of the element
+    console.log('Mouse scroll: ', e.deltaY, "Scroll Position: ", updatedScrollPosition);
+}, { passive: false });
+
+let parallaxIntensity = -3;
 let parallaxSelector = '.portfolio-image'
 
 document.addEventListener('wheel', function(e) {
@@ -35,7 +44,9 @@ function customParallax(selector, deltaY) {
         $(selector).css('transform', `translate(${newHorizTranslate}px, ${newVertTranslate}px)`);
         $(selector).attr('data-translate', newHorizTranslate); // Store the current translation for track keeping back in data-translate
     } else {
-        $(this).attr('data-translate', 0); // If element is not in view reset the translatation
+        // $(this).attr('data-translate', 0); // If element is not in view reset the translatation
     }
 }
+
+
 
