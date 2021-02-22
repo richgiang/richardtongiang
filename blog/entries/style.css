@@ -49,11 +49,8 @@
 /* nav */
 
 .navbar {
-    display:grid;
-    grid-template-columns: auto auto auto;
-    padding-top: 10px;
-    width: 100vw;
-    position: fixed;
+   display: flex;
+
   }
 
 #navbarname{
@@ -116,4 +113,6 @@ body{
     font-size: 12px;
     font-family: Body;
 }
+
+
   
