@@ -257,16 +257,6 @@ button:active{
     color: #6B705C;
     background-color: black;
 }
-a.button{
-    appearance: button;
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    border: none;
-    font-family: Nav;
-    color: #6B705C;
-    background-color: black;
-}
 
 
 /* nav bar  */
@@ -300,7 +290,7 @@ a.button{
     }
 }
 
-/* about me grid */
+/* about me */
 
 #aboutme-container{
     display: grid;
@@ -323,6 +313,12 @@ a.button{
 .aboutme-image-container{
     grid-column-start: 2;
     grid-column-end: 3;
+}
+
+.contact-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* blog flex */
@@ -413,6 +409,14 @@ a.button{
 .preview-image{
     grid-column-start: 2;
     grid-column-end: 3;
+}
+.preview-image-effect{
+    border-radius: 20px;
+    transition: box-shadow .3s;
+    /* border: 1px solid rgba(0, 0, 0, .25); */
+}
+img.preview-image-effect:hover{
+    box-shadow: 0 0 20px rgba(33,33,33,.5); 
 }
 
 .preview-text{
