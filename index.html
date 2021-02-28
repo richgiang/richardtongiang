@@ -1,31 +1,270 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>ART3001 Workshop 
-            1</title>
-    </head>
-    <body>
-        <header>
-            <h1>Rich's Homepage</h1>
-            <nav>
-                <a href="blog">Blog</a>
-                <br>
-                <a href="exercises">Exercises</a>
-                <br>
-                <a href="projects">Projects</a>
-                <br>
-                <h3>Playground</h3>
-                <a href="playground/extra-tags.html">div</a>
-                <br>
-                <a href="project1/index.html">Project 1 (IN PROGRESS)</a>
-            </nav>
-        </header>
-        <hr>
-        <p>
-            This is a collection of thoughts and works.
-        </p>
+<html lang="en">
 
-        <footer>Copyright Richard Giang 2021</footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body class="main-body">
+    <div class="illustrations">
+        <div class="navbar">
+            <div>
+                <a href="" id="navbarname">RICHARD GIANG</a>  
+            </div>
+            <div>
+                <a href="#project1" id="navbarheader">MY WORK</a>
+            </div>
+            <div>
+                <a href="#aboutme-container" id="navbarcontact">CONTACT</a>
+            </div>
+        </div>
+
+
+        <div class="scrolling-wrapper-flexbox">
+
+      
+            <div class="intro">
+                <div id="intro">
+                    <img  src="assets/Art 3001 Intro SMALLBOWL.png" alt="Intro" height=700px width=700px>
+                </div>
+            </div>
+
+
+            <div id="portfoliointro" class="horizontal">
+                <div class="statement-container">
+                    <div id="regular" class="statement">
+                            Statement of purpose. Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Laborum id dolorum ullam delectus reiciendis excepturi assumenda itaque quibusdam
+                            cumque, cum sequi, sint repellat voluptatum pariatur eaque ipsa repudiandae tenetur
+                            odio.
+                    </div>
+                    <div id="name" class="name">
+                            RICHARD GIANG
+                    </div>
+                </div>
+            </div>
+            
+
+            <div id="vertical-text-container" class="horizontal">
+                <div class="rotated-text">
+                    <marquee behavior="scroll" direction="left" scrollamount="20">PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO</marquee>
+                    <marquee behavior="scroll" direction="right" scrollamount="20">PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO</marquee>
+                </div>
+            </div>
+
+            <div id="project1" class="horizontal">
+                <div class="portfolio-container">
+                    <img src="../blog/img/Parable.JPEG" class="portfolio-image" width=60% alt="">
+                    <div class="portfolio-text">
+                        <div id="header">
+                            1.
+                        </div>
+                        <br>
+                        <div id="subhead">
+                            Exercises
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="button">
+                                VIEW MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="project2" class="horizontal">
+                <div class="portfolio-container">
+                    <img src="../blog/img/Parable.JPEG" class="portfolio-image" width=60% alt="">
+                    <div class="portfolio-text">
+                        <div id="header">
+                            2.
+                        </div>
+                        <br>
+                        <div id="subhead">
+                            Blog
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="button" onclick="location.href='../blog/index.html'">
+                                VIEW MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="project3" class="horizontal">
+                <div class="portfolio-container">
+                    <img src="../blog/img/Parable.JPEG" class="portfolio-image" width=60% alt="">
+                    <div class="portfolio-text">
+                        <div id="header">
+                            3.
+                        </div>
+                        <br>
+                        <div id="subhead">
+                            Projects
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="button">
+                                VIEW MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="project4" class="horizontal">
+                <div class="portfolio-container">
+                    <img src="../blog/img/Parable.JPEG" class="portfolio-image" width=60% alt="">
+                    <div class="portfolio-text">
+                        <div id="header">
+                            4.
+                        </div>
+                        <br>
+                        <div id="subhead">
+                            Design
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="button">
+                                VIEW MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="project5" class="horizontal">
+                <div class="portfolio-container">
+                    <img src="assets/carti.JPEG" class="portfolio-image" width=80% alt="">
+                    <div class="portfolio-text">
+                        <div id="header">
+                            5.
+                        </div>
+                        <br>
+                        <div id="subhead">
+                            Photography
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="button">
+                                VIEW MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="project6" class="horizontal">
+                <div class="portfolio-container">
+                    <img src="../blog/img/Parable.JPEG" class="portfolio-image" width=60% alt="">
+                    <div class="portfolio-text">
+                        <div id="header">
+                            6.
+                        </div>
+                        <br>
+                        <div id="subhead">
+                            Audio
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="button">
+                                VIEW MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="vertical-text-container" class="horizontal">
+                <div id="vertical-text">
+                    <div class="rotated-text">
+                        <marquee behavior="scroll" direction="left" scrollamount="20">ABOUT ME ABOUT ME ABOUT ME</marquee>
+                        <marquee behavior="scroll" direction="right" scrollamount="20">ABOUT ME ABOUT ME ABOUT ME</marquee>
+                    </div>
+                </div>
+            </div>
+
+            <div id="finishyourfood" class="horizontal">
+                <div class="finishfood">
+                    <div class="finish-style" id="finish1">
+                        Finish your food.
+                    </div>
+                    <div class="finish-style" id="finish2">
+                        Finish your food.
+                    </div>
+                    <div class="finish-style" id="finish3">
+                        Finish your food.
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="aboutme-container" class="horizontal">
+                <div class="aboutme-text">
+                    <h1>ABOUT ME</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure pariatur itaque temporibus atque blanditiis aspernatur laudantium culpa exercitationem harum nobis, ipsam ipsa accusantium sint mollitia iusto aut? Esse, perspiciatis.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae ad animi similique ipsam dolorum ullam, veniam aliquid aut, voluptatibus cum veritatis, velit ea blanditiis at quasi error non maiores dolore!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore tempore nihil iste eveniet itaque odit eos deleniti officiis minus fugit voluptates necessitatibus, debitis enim sint quos magnam nesciunt doloribus praesentium?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore tempore nihil iste eveniet itaque odit eos deleniti officiis minus fugit voluptates necessitatibus, debitis enim sint quos magnam nesciunt doloribus praesentium?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore tempore nihil iste eveniet itaque odit eos deleniti officiis minus fugit voluptates necessitatibus, debitis enim sint quos magnam nesciunt doloribus praesentium?
+                    </p>
+                    <br>
+                    <div class="contact-flex">
+                        <div>
+                            <button onclick="location.href='https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:cb55eb8b-654b-4e99-8b42-610baae08ad6'">RESUMÉ</button>
+                        </div>
+                        <div>
+                            <button onclick="location.href='https://www.linkedin.com/in/richardgiang'">LINKEDIN</button>
+                        </div>
+                        <div>
+                            <button onclick="location.href='https://www.instagram.com/rich.etc/'">INSTAGRAM</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutme-image-container">
+                    <img src="../blog/img/Parable.JPEG" width="70%" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
 
 </html>
