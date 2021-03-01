@@ -428,33 +428,21 @@ img.preview-image-effect:hover{
 /* blog post */
 
 .blog-post-container{
-    flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: auto;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 80vw;
+    padding-right: 10vw;
     padding-left: 10vw;
 }
 
-.blog-post-grid{
-    display: grid;
-    grid-template-columns: 50vw auto;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
 .blog-post-text{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    padding-bottom: 10vh;
 }
-.blog-post-image{
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
 .blog-post-title{
     font-family: Header;
     font-size: 4vw;
