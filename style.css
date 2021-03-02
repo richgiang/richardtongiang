@@ -39,7 +39,6 @@
     justify-content:center;
     margin: 0;
     width: 100vw;
-    padding-top: 5vh;
     padding-left: 31vw;
     padding-right: 33vw;
 }
@@ -62,6 +61,8 @@
   align-items: center;
   height: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 @media screen and (max-width: 500px){
 .scrolling-wrapper-flexbox{
@@ -124,10 +125,9 @@
     margin: 0;
     transform: rotate(270deg);
     overflow-wrap: hidden;
-    word-break: none;
     justify-content: center;
     align-items: center;
-    z-index: -1;
+    z-index: 1;
     width: 100vh;
 }
 
@@ -144,12 +144,12 @@
 .finishfood{
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-template-columns: 10vw auto auto 10vw;
+    grid-template-columns: 18vw auto auto 18vw;
     align-items: center;
     justify-content:center;
-    padding-top: 8vh;
+    padding-top: 0;
     margin: 0;
-    grid-gap: 4vh;
+    grid-gap: 2vh;
 }
 #finish1{
     grid-row-start: 1;
@@ -161,6 +161,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.bowl1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
 #finish2{
     grid-row-start: 2;
     grid-row-end: 3;
@@ -170,6 +178,13 @@
     margin: 0;
     align-items: center;
     justify-content: center;
+}
+
+.bowl2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 #finish3{
     grid-row-start: 3;
@@ -195,9 +210,10 @@
     display: grid;
     grid-template-columns: 20vw auto;
     grid-template-rows: 25vh auto; 
-    grid-gap: 70px;
-    padding-top: 100px;
+    padding-top: 50px;
     justify-content: left;
+    padding-right: 5vw;
+    height: 100vh;
 }
 .portfolio-image { 
     grid-column-start: 2;
@@ -258,15 +274,23 @@ button:active{
     background-color: black;
 }
 
+#project6{
+    padding-right: 0;
+}
+
 
 /* nav bar  */
 
 .navbar {
     display:flex;
-    padding: 5vh;
-    width: 94vw;
+    padding-left: 4.5vh;
+    padding-right: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 95vw;
     position: fixed;
     justify-content: space-between;
+    align-items: flex-start;
   }
 
 .navbar a{
@@ -295,7 +319,7 @@ button:active{
     grid-template-columns: 30vw auto;
     width: 70vw;
     padding-left: 150px;
-    padding-top: 150px;
+    padding-top: 100px;
     grid-gap: 50px;
     justify-content: center;
     align-items:flex-start;

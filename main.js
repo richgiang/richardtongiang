@@ -7,7 +7,7 @@ document.addEventListener('wheel', function(e) {
     console.log('Mouse scroll: ', e.deltaY, "Scroll Position: ", updatedScrollPosition);
 }, { passive: false });
 
-let parallaxIntensity = -2.5;
+let parallaxIntensity = -2.75;
 let parallaxSelector = '.portfolio-image'
 
 document.addEventListener('wheel', function(e) {
