@@ -12,6 +12,7 @@
     <script type="text/javascript" src="main.js"></script>
 </head>
 
+<!-- Menu/Navbar -->
 <body class="main-body">
     <div class="illustrations">
         <div class="navbar">
@@ -26,16 +27,17 @@
             </div>
         </div>
 
-
+<!-- Intro screen -->
         <div class="scrolling-wrapper-flexbox">
 
             <div class="intro-container">
                 <div class="intro">
-                    <img  src="assets/Art 3001 Intro SMALLBOWL.png" alt="Intro" height=700px width=700px>
+                    <img class="desktop-intro"  src="assets/Art 3001 Intro SMALLBOWL.png" alt="Intro" height=700px width=700px>
+                    <img class="mobile-intro" src="assets/Art 3001 Intro iPhone.png" height="250px" width="250px" alt="">
                 </div>
             </div>
                 
-
+<!-- Personal statement -->
 
             <div id="portfoliointro" class="horizontal">
                 <div class="statement-container">
@@ -53,13 +55,18 @@
                 </div>
             </div>
             
+<!-- Work Marquee -->
 
             <div id="vertical-text-container" class="horizontal">
-                <div class="rotated-text">
-                    <marquee behavior="scroll" direction="left" scrollamount="20">MY WORK MY WORK MY WORK MY WORK</marquee>
-                    <marquee behavior="scroll" direction="right" scrollamount="20">MY WORK MY WORK MY WORK MY WORK</marquee>
+                <div>
+                    <marquee class="rotated-text" behavior="scroll" direction="left" scrollamount="20">MY WORK MY WORK MY WORK MY WORK</marquee>
+                    <marquee class="rotated-text1"behavior="scroll" direction="left" scrollamount="20">MY WORK MY WORK MY WORK MY WORK</marquee>
                 </div>
             </div>
+
+<!-- Work Section -->
+
+            <!-- Design -->
 
             <div id="project1" class="horizontal">
                 <div class="portfolio-container">
@@ -70,12 +77,12 @@
                         </div>
                         <br>
                         <div id="subhead">
-                            Exercises
+                            Design
                         </div>
                         <br>
                         <br>
                         <div>
-                            <button type="button" onclick="location.href='exercises/index.html'">
+                            <button type="button" onclick="location.href='designs/index.html'">
                                 VIEW MORE
                             </button>
                         </div>
@@ -84,14 +91,38 @@
             </div>
 
 
+            <!-- Media -->
 
+            <div class = "image" id="project2" class="horizontal">
+                <div class="portfolio-container">
+                    <img src="assets/Noodles.png" class="portfolio-image" alt="">
+                    <div class="portfolio-text">
+                        <div id="header">
+                            2.
+                        </div>
+                        <br>
+                        <div id="subhead">
+                            Media Production
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="button" onclick="location.href='projects/index.html'">
+                                VIEW MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Writing -->
 
-            <div id="project2" class="horizontal">
+            <div id="project3" class="horizontal">
                 <div class="portfolio-container">
                     <img src="assets/Tea.png" class="portfolio-image" alt="">
                     <div class="portfolio-text">
                         <div id="header">
-                            2.
+                            3.
                         </div>
                         <br>
                         <div id="subhead">
@@ -109,27 +140,6 @@
             </div>
 
 
-            <div id="project3" class="horizontal">
-                <div class="portfolio-container">
-                    <img src="assets/Noodles.png" class="portfolio-image" alt="">
-                    <div class="portfolio-text">
-                        <div id="header">
-                            3.
-                        </div>
-                        <br>
-                        <div id="subhead">
-                            Projects
-                        </div>
-                        <br>
-                        <br>
-                        <div>
-                            <button type="button" onclick="location.href='projects/index.html'">
-                                VIEW MORE
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
 
@@ -204,9 +214,9 @@
             </div> -->
 
             <div id="vertical-text-container" class="horizontal">
-                <div class="rotated-text">
-                    <marquee behavior="scroll" direction="left" scrollamount="20">ABOUT ME ABOUT ME ABOUT ME</marquee>
-                    <marquee behavior="scroll" direction="right" scrollamount="20">ABOUT ME ABOUT ME ABOUT ME</marquee>
+                <div>
+                    <marquee class="rotated-text" behavior="scroll" direction="left" scrollamount="20">ABOUT ME ABOUT ME ABOUT ME</marquee>
+                    <marquee class="rotated-text1" behavior="scroll" direction="left" scrollamount="20">ABOUT ME ABOUT ME ABOUT ME</marquee>
                 </div>
             </div>
 
