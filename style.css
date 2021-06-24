@@ -1,3 +1,5 @@
+
+
 .main-body{
     background-color: #6B705C;
     margin: 0;
@@ -28,6 +30,10 @@
     font-family: Nav;
     src: url(fonts/Prompt-Thin.ttf);
 }
+@font-face{
+    font-family: Prompt-Semi;
+    src: url(fonts/Prompt-SemiBold.ttf);
+}
 
 
 .intro-container{
@@ -49,7 +55,7 @@
 }
 
 @media screen and (max-width: 500px){
-    .intro{
+    /* .intro{
         padding: 0;
         width: 100vw;
     }
@@ -58,7 +64,7 @@
     }
     .mobile-intro{
         display: contents;
-    }
+    } */
     
 }
 
@@ -79,7 +85,7 @@
 .scrolling-wrapper-flexbox{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     overflow-y: scroll;
     }
 }
@@ -368,25 +374,30 @@ button:active{
     justify-content: space-between;
 }
 
-/* branch */
+/* designs */
+
+/* designs navbar */
 
 .navbar-branch {
     display:flex;
     padding: 5vh;
-    width: 20vw;
+    width: 95vw;
     flex-direction: column;
     position: fixed;
     z-index: 1;
+    text-align: right;
   }
 
 .navbar-branch a{
     font-family: Nav;
     text-decoration: none;
     color: #FFE8D6;
+    transition: letter-spacing, 1s;
 }
 
 .navbar-branch a:hover{
-    font-family: Body;
+    font-family: Subhead;
+    letter-spacing: .1vw;
 }
 
   @media screen and (max-width: 500px) {
@@ -404,17 +415,146 @@ button:active{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: scroll;
   }
 
+
 .branch-description{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    width: 25vw;
+    height: 100%;
+    justify-content: center;
+    align-items: left;
+    position: fixed;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.branch-title{
     display: flex;
     position: fixed;
     width: 25vw;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding-left: 5vh;
+    line-height: .85;
+    align-items: center;
+    padding-left: 2%;
 }
+.project-number{
+    font-size: 2rem;
+    padding-left: 1%;
+    font-family: Prompt-Semi;
+}
+
+.link-flex{
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    padding-left: 40vw;
+    padding-top: 10vh;
+    width: 60vw;
+}
+
+.project-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-title{
+    padding-bottom: 5%;
+    font-size: 7rem;
+    font-family: Prompt-Semi;
+}
+
+/* branch fixed */
+
+.designs-back{
+    display: block;
+    position: fixed;
+    top: 50%;
+    transform: rotate(270deg);
+    font-family: Nav;
+    font-size: 2.5rem;
+    transition: letter-spacing .75s;
+}
+.designs-back a{
+    color: #FFE8D6;
+    text-decoration: none;
+}
+.designs-back:hover{
+    letter-spacing: .2vh;
+}
+
+/* 
+.example:hover + .kroger-title{ 
+    display: block;
+} */
+
+
+/* Project Links Hover */
+
+.links { visibility: hidden; }
+
+
+.links > * { visibility: visible; }
+
+
+.links > * { transition: opacity .25s linear .25s, transform .25s ease-in-out .25s, letter-spacing .5s;}
+
+
+.links:hover > * { opacity: 0.3; }
+
+
+.links > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms, 0ms, 0ms, 0ms; letter-spacing: .2vw; cursor: pointer;}
+
+
+.logo{
+    position: fixed;
+    bottom: 3%;
+    left: 2%;
+}
+
+.signature{
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 2%;
+    font-family: Regular;
+    font-size: 2rem;
+    z-index: 1000000;
+    cursor: pointer;
+    color: #FFE8D6;
+}
+.signature2{
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 2%;
+    font-family: Regular;
+    font-size: 2rem;
+    z-index: 1000000;
+    cursor: pointer;
+    color: #FFE8D6;
+}
+
+.signature a, .signature2 a{
+    text-decoration: none;
+    color: #FFE8D6;
+}
+
+.signature:hover{
+    display: none;
+    cursor: pointer;
+}
+.signature:hover + .signature2{
+    display: block;
+}
+
+/* Branch styling */
 
 .branch-header{
     font-family: Header;
@@ -423,19 +563,19 @@ button:active{
 
 .branch-subhead{
     font-family: Subhead;
-    font-size: 1rem;
+    font-size: 2rem;
+}
+.branch-subhead-big{
+    font-family: Prompt-Semi;
+    font-size: 4rem;
 }
 .branch-bodycopy{
     font-family: Body;
     font-size: 1rem;
 }
-.preview-title{
-    font-family: Regular;
-    font-size: 3rem;
-}
-.preview-subtitle{
-    font-family: Subhead;
-    font-size: 1rem;
+.branch-thin{
+    font-family: Nav;
+    font-size: 4rem;
 }
 
 .branch-flex-container{
@@ -447,49 +587,204 @@ button:active{
     width: 55%;
 }
 
-.preview-container{
-    display: grid;
-    grid-template-columns: 20vw auto;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    grid-gap: 1vw;
-}
-.preview-container1{
-    display: grid;
-    grid-template-columns: auto 20vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    grid-gap: 1vw;
+.design-subhead{
+    font-family: Prompt-Semi;
+    font-size: 3rem;
 }
 
-.preview-image{
+/* project page build */
+
+.project-intro-container{
+    display: grid;
+    grid-template-columns: auto 20% 20%;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+}
+
+.project-intro-text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.project-intro-image{
+    z-index: -1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.design-title{
+    font-size: 10rem;
+    font-family: Prompt-Semi;
+    line-height: 120%;
+}
+
+.project-description{
+    width: 75%;
+}
+
+.screenshot{
+    z-index: -1;
+}
+
+.design-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    width: 70%;
+}
+
+.design-primer{
+    width: 80%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.key-features{
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto ;
+    grid-gap: 5%;
+}
+
+.key-features-title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: Prompt-Semi;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.key-feature-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.key-feature-1 img{
+    transform: rotate(357deg);
+}
+
+.key-feature-1-description{
     grid-column-start: 2;
     grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 50%;
+    width: 85%;
 }
-.preview-image1{
+
+.key-feature-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.key-feature-2 img{
+    transform: rotate(3deg);
+}
+
+.key-feature-2-description{
+    padding-top: 50%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 85%;
+    text-align: right;
+}
+
+.design-process {
+    display: grid;
+    padding-top: 30%;
+}
+
+.design-process-title{
+    text-align: center;
+    font-family: Prompt-Semi;
+    font-size: 4rem;
+}
+
+.empathy{
+    padding-top: 10%;
+}
+
+.research-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.stat-1, .stat-2, .stat-3{
+    font-family: Nav;
+    font-size: 7rem;
+}
+
+.research-text{
+    width: 50%;
+    font-family: Body;
+}
+
+.research-description{
     grid-column-start: 1;
     grid-column-end: 2;
 }
-.preview-image-effect{
-    transition: box-shadow .3s;
-    /* border: 1px solid rgba(0, 0, 0, .25); */
-}
-img.preview-image-effect:hover{
-    box-shadow: 0 0 20px rgba(33,33,33,.5); 
-}
 
-.preview-text{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-.preview-text1{
+.research-image{
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
+
+.ideation{
+    padding-top: 10%;
+    text-align: left;
+    padding-left: 50%;
+}
+
+.ideation-description{
+    align-self: right;
+}
+
+.ideation-text{
+    font-family: Body;
+}
+
+.define{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.define-description{
+    padding-left: 10%;
+}
+
+.define-text{
+    font-family: Body;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* blog post */
 
 .blog-post-container{
