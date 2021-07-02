@@ -554,6 +554,9 @@ button:active{
     display: block;
 }
 
+
+
+
 /* Branch styling */
 
 .branch-header{
@@ -771,8 +774,48 @@ button:active{
     font-size: 1rem;
 }
 
+/* Print styling */
 
+.section-heading{
+    padding-top: 10%;
+    font-family: Regular;
+    font-size: 3rem;
+    text-align: left;
+    width: 100%;
+}
 
+hr.divider{
+    border: 1px solid black;
+}
+
+.page-grid{
+    display: grid;
+    grid-template-columns: 15% auto auto;
+    grid-gap: 5%;
+}
+
+.page-caption-container{
+   grid-column-start: 1;
+   grid-column-end: 2;
+}
+
+.page-image{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.spread-title{
+    font-family: Subhead;
+    font-size: 1.5rem;
+}
+.spread-caption{
+    font-family: Body;
+    font-size: 1rem;
+}
+
+.grid-padding{
+    padding-top: 2%;
+}
 
 
 
