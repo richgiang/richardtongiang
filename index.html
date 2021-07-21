@@ -6,280 +6,195 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Richard Ton Giang</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/jquery.js"></script>
+    <!-- <script src="/libraries/p5.min.js"></script>
+    <script src="/libraries/p5.sound.min.js"></script>
+    <script src="/sketch.js"></script> -->
 </head>
-
-<!-- Menu/Navbar -->
 <body class="main-body">
-    <div class="illustrations">
-        <div class="navbar">
-            <div>
-                <a href="" id="navbarname">RICHARD GIANG</a>  
-            </div>
-            <div>
-                <a href="#project1" id="navbarheader">MY WORK</a>
-            </div>
-            <div>
-                <a href="#aboutme-container" id="navbarcontact">CONTACT</a>
-            </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <script src="/mouse.js"></script>
+
+    <!-- Navigation  -->
+    <div class="navbar-branch">
+       <div>
+           <a href="../index.html">HOME</a>
+           <br>  
+           <!-- <a class="nav-about" href="">ABOUT</a>
+           <br> -->
+           <a class="nav-contact" href="/contact/index.html">CONTACT</a>
+       </div>
+   </div>
+
+   <!-- Signature -->
+
+    <div class="signature">
+        <a href="../index.html">RICHARD TON GIANG</a>
+     </div>
+    <div class="signature2">
+        <a href="../index.html">GIANG GIA TON</a>
+    </div>
+
+    <!-- Home Introduction: my phrase along with a short description of who I am and what I'm about -->
+
+    <div class="home-container">
+        <div class="home-header">
+          Hello! <br> I'm a <span>designer</span> that loves <span>stories</span>.
         </div>
-
-<!-- Intro screen -->
-        <div class="scrolling-wrapper-flexbox">
-
-            <div class="intro-container">
-                <div class="intro">
-                    <img class="desktop-intro"  src="assets/Art 3001 Intro SMALLBOWL.png" alt="Intro" height=700px width=700px>
-                    <img class="mobile-intro" src="assets/Art 3001 Intro iPhone.png" height="250px" width="250px" alt="">
-                </div>
-            </div>
-                
-<!-- Personal statement -->
-
-            <div id="portfoliointro" class="horizontal">
-                <div class="statement-container">
-                    <div id="regular" class="statement">
-                            My name is Richard Giang and I'm a Vietnamese-American storyteller with an insatiable desire to seek out the stories that go undeservedly untold. I live by the mantra of "Finish Your Food", which to me, holds three distinct meanings: take nothing for granted, never stop learning, and always finish what you've started. 
-                            <br>
-                            <br>
-                            Let's work together to co-create awe-inspiring, perspective-altering experiences.
-                            <br>
-                            <br>
-                    </div>
-                    <div id="name" class="name">
-                            GIANG GIA TON
-                    </div>
-                </div>
-            </div>
-            
-<!-- Work Marquee -->
-
-            <div id="vertical-text-container" class="horizontal">
-                <div>
-                    <marquee class="rotated-text" behavior="scroll" direction="left" scrollamount="20">MY WORK MY WORK MY WORK MY WORK</marquee>
-                    <marquee class="rotated-text1"behavior="scroll" direction="left" scrollamount="20">MY WORK MY WORK MY WORK MY WORK</marquee>
-                </div>
-            </div>
-
-<!-- Work Section -->
-
-            <!-- Design -->
-
-            <div id="project1" class="horizontal">
-                <div class="portfolio-container">
-                    <img src="assets/Exercises.png" class="portfolio-image" alt="">
-                    <div class="portfolio-text">
-                        <div id="header">
-                            1.
-                        </div>
-                        <br>
-                        <div id="subhead">
-                            Design
-                        </div>
-                        <br>
-                        <br>
-                        <div>
-                            <button type="button" onclick="location.href='designs/index.html'">
-                                VIEW MORE
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Media -->
-
-            <div class = "image" id="project2" class="horizontal">
-                <div class="portfolio-container">
-                    <img src="assets/Noodles.png" class="portfolio-image" alt="">
-                    <div class="portfolio-text">
-                        <div id="header">
-                            2.
-                        </div>
-                        <br>
-                        <div id="subhead">
-                            Media Production
-                        </div>
-                        <br>
-                        <br>
-                        <div>
-                            <button type="button" onclick="location.href='projects/index.html'">
-                                VIEW MORE
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Writing -->
-
-            <div id="project3" class="horizontal">
-                <div class="portfolio-container">
-                    <img src="assets/Tea.png" class="portfolio-image" alt="">
-                    <div class="portfolio-text">
-                        <div id="header">
-                            3.
-                        </div>
-                        <br>
-                        <div id="subhead">
-                            Blog
-                        </div>
-                        <br>
-                        <br>
-                        <div>
-                            <button type="button" onclick="location.href='blog/index.html'">
-                                VIEW MORE
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="home-body">
+           <p>
+                My name is Richard Ton Giang, a Vietnamese-American creative who believes designing is best done through storytelling. I can sum up the perspective and style I bring to all of my work in one phrase:
+           </p> 
+        </div>
+        <div class="home-tagline">
+            <a href="/finish-food/index.html">"<span>Finish Your Food.</span>"</a>
+        </div>
+        
+        <!-- Mobile Content -->
+        
 
 
 
 
 
-<!-- 
-            <div id="project4" class="horizontal">
-                <div class="portfolio-container">
-                    <img src="blog/img/Parable.JPEG" class="portfolio-image" width=60% alt="">
-                    <div class="portfolio-text">
-                        <div id="header">
-                            4.
-                        </div>
-                        <br>
-                        <div id="subhead">
-                            Design
-                        </div>
-                        <br>
-                        <br>
-                        <div>
-                            <button type="button">
-                                VIEW MORE
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    </div>
 
+    <!-- Chopsticks -->
 
-            <div id="project5" class="horizontal">
-                <div class="portfolio-container">
-                    <img src="assets/carti.JPEG" class="portfolio-image" width=80% alt="">
-                    <div class="portfolio-text">
-                        <div id="header">
-                            5.
-                        </div>
-                        <br>
-                        <div id="subhead">
-                            Photography
-                        </div>
-                        <br>
-                        <br>
-                        <div>
-                            <button type="button">
-                                VIEW MORE
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="chopsticks">
+        <img src="/assets/Chopsticks.png" width="100%" alt="">
+    </div>
 
+    <!-- Navigation table -->
 
-
-            <div id="project6" class="horizontal">
-                <div class="portfolio-container">
-                    <img src="assets/carti.JPEG" class="portfolio-image" width="80%" alt="">
-                    <div class="portfolio-text">
-                        <div id="header">
-                            6.
-                        </div>
-                        <br>
-                        <div id="subhead">
-                            Audio
-                        </div>
-                        <br>
-                        <br>
-                        <div>
-                            <button type="button">
-                                VIEW MORE
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <div id="vertical-text-container" class="horizontal">
-                <div>
-                    <marquee class="rotated-text" behavior="scroll" direction="left" scrollamount="20">ABOUT ME ABOUT ME ABOUT ME</marquee>
-                    <marquee class="rotated-text1" behavior="scroll" direction="left" scrollamount="20">ABOUT ME ABOUT ME ABOUT ME</marquee>
-                </div>
-            </div>
-
-            <div id="finishyourfood" class="horizontal">
-                <div class="finishfood">
-                    <div class="bowl1">
-                        <img src="assets/Bowl.png" alt="">
-                    </div>
-                    <div class="finish-style" id="finish1">
-                        Finish your food.
-                    </div>
-                    <div class="finish-style" id="finish2">
-                        Finish your food.
-                    </div>
-                    <div class="bowl2">
-                        <img src="assets/Bowl.png" alt="">
-                    </div>
-                    <div class="bowl3">
-                        <img src="assets/Bowl.png" alt="">
-                    </div>
-                    <div class="finish-style" id="finish3">
-                        Finish your food.
-                    </div>
-                </div>
-            </div>
-
-
-            <div id="aboutme-container" class="horizontal">
-                <div class="aboutme-text">
-                    <h1>ABOUT ME</h1>
-                    <p>
-                        Hi, I’m Richard Ton Giang (Viet name: Giang Gia Ton) and I’m a Vietnamese-American storyteller based out of Columbus Ohio that values the power of humble narratives. My background is in Human-Computer Interaction, Screenwriting, Design Thinking, and Journalism, but I believe that just scratches the surface of my interests and career direction. Above all, I’m someone who is always looking to tell stories that are humbly impactful as well as innovative and exciting ways to tell them. 
-                    </p>
-                    <p>
-                        I have a strong background in print layout design, photojournalism, web design, UX/UI design, and multiple forms of writing. What ties my diverse skills together is my innate drive to learn more and share my unique experiences with the rest of the world. I see myself as a catalyst that digs up inconspicuous narratives so others can empathize and learn from them as much as I have.
-                    </p>
-                    <p>
-                        With this drive and experience I have collaborated with diverse teams to produce novel and compelling solutions to complex, wicked problems throughout my undergraduate career. My experiences, skills, and mantra of always finishing my food have provided me with that ability to propel any team forward while providing truly creative and thoughtful ideas. I seek to bring these qualities to undertake any problem, so let’s co-create inspiring and moving experiential solutions. 
-
-                    </p>
-                    <br>
-                    <div class="contact-flex">
-                        <div>
-                            <button onclick="location.href='https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:cb55eb8b-654b-4e99-8b42-610baae08ad6'">RESUMÉ</button>
-                        </div>
-                        <div>
-                            <button onclick="location.href='https://www.linkedin.com/in/richardgiang'">LINKEDIN</button>
-                        </div>
-                        <div>
-                            <button onclick="location.href='https://www.instagram.com/rich.etc/'">INSTAGRAM</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="aboutme-image-container">
-                    <img src="assets/DSC09024.jpg" width="70%" alt="">
-                </div>
-            </div>
-
-
+    <div class="table-grid">
+        <div class="dish-1 | dish">
+            <a href="/designs/index.html">
+                <img id="dish1" src="assets/Tea.png" width="100%" alt="">
+            </a>
+        </div>
+        <div class="dish-2 | dish">
+            <a href="/media/index.html">
+                <img id="dish2" src="assets/Tea.png" width="100%" alt="">
+            </a>
+        </div>
+        <div class="dish-3 | dish">
+            <a href="/writing/index.html">
+                <img id="dish3" src="assets/Tea.png" width="100%" alt="">
+            </a>
+        </div>
+        <div class="dish-4 | dish">
+            <a href="/about/index.html">
+                <img id="dish4" src="assets/Tea.png" width="100%" alt="">
+            </a>
+        </div>
+        <div class="dish-5 | dish">
+            <a href="/resume/index.html">
+                <img id="dish5" src="assets/Tea.png" width="100%" alt="">
+            </a>
+        </div>
+        <div class="dish-6 | dish">
+            <a href="/finish-food/index.html">
+                <img id="dish6" src="assets/Tea.png" width="100%" alt="">
+            </a>
         </div>
     </div>
 
+
+    <!-- Slideout hover -->
+    <div id="designs" class="slideout | slide-menu-right | rotating">
+        <img src="assets/DESIGN_DISH.png" width="100%" alt="">
+    </div>
+    <div id="media" class="slideout | slide-menu-right | rotating">
+        <img src="assets/MEDIA_DISH.png" width="100%" alt="">
+    </div>
+    <div id="ideas" class="slideout | slide-menu-right | rotating">
+        <img src="assets/IDEAS_DISH.png" width="100%" alt="">
+    </div>
+    <div id="about-me" class="slideout | slide-menu-right | rotating">
+        <img src="assets/ABOUTME_DISH.png" width="100%" alt="">
+    </div>
+    <div id="resume" class="slideout | slide-menu-right | rotating">
+        <img src="assets/RESUME_DISH.png" width="100%" alt="">
+    </div>
+    <div id="finish-food" class="slideout | slide-menu-right | rotating">
+        <img src="assets/FINISHFOOD_DISH.png" width="100%" alt="">
+    </div>
+
+
+    <!-- MOBILE CONTENT -->
+
+
+
+    <div class="mobile-design-flex">
+        <div class="mobile-home-description">
+            My name is <span>Richard Ton Giang</span>, and I'm a <span>Vietnamese-American</span> creative focused on UX Design, Visual Identity Design, and Print Design. 
+        </div>
+        <div class="mobile-design">
+            <div class="mobile-image">
+                <img src="assets/Designs dish.png" width="100%" alt="">
+            </div>
+            <div class="mobile-title">
+                Designs
+            </div>
+            <div class="mobile-subtitle">
+                Lorem ipsum dolor sit amet.
+            </div>
+            <div class="mobile-button">
+                <a href="/media/index.html">
+                    <button>
+                        VIEW
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="mobile-design">
+            <div class="mobile-image">
+                <img src="assets/Designs dish.png" width="100%" alt="">
+            </div>
+            <div class="mobile-title">
+                Media
+            </div>
+            <div class="mobile-subtitle">
+                Lorem ipsum dolor sit amet.
+            </div>
+            <div class="mobile-button">
+                <a href="/designs/index.html">
+                    <button>
+                        VIEW
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="mobile-design">
+            <div class="mobile-image">
+                <img src="assets/Designs dish.png" width="100%" alt="">
+            </div>
+            <div class="mobile-title">
+                Ideas
+            </div>
+            <div class="mobile-subtitle">
+                Lorem ipsum dolor sit amet.
+            </div>
+            <div class="mobile-button">
+                <a href="/ideas/index.html">
+                    <button>
+                        VIEW
+                    </button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Bottom left logo -->
+    <!-- <img class="logo" src="../assets/Bowl.png" alt="" width="5%"> -->
 </body>
+
+<script src="main.js"></script>
 
 </html>
