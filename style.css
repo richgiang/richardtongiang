@@ -1,9 +1,9 @@
 html, body{
-    background-color: white;
+    background-color: none;
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
     overflow-y: scroll;
     cursor: none;
@@ -135,6 +135,13 @@ html, body{
     left: 0; 
 }
 
+.table{
+    position: fixed;
+    left: 37.5%;
+    top: 10%;
+    z-index: -1;
+}
+
 
 
 
@@ -143,7 +150,7 @@ html, body{
 .chopsticks img{
     position: fixed;
     top: 12%;
-    left: 25%;
+    left: 22%;
     width: 20%;
     transition: .5s ease;
     z-index: 10000000;
@@ -156,20 +163,22 @@ html, body{
 /* Home page table */
 
 .table-grid{
-    padding-top: 5vh;
-    padding-left: 25vw;
+    padding-top: 14vh;
+    padding-left: 28vw;
     display: grid;
-    width: 75vw;
-    height: 100vh;
+    width: 68vw;
+    height: 60vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    z-index: 100000000000000;
+    grid-gap: none;
 }
 
 .dish-1{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 .dish-2{
     grid-column-start: 8;
@@ -180,24 +189,25 @@ html, body{
 .dish-3{
     grid-column-start: 8;
     grid-column-end: 9;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 .dish-4{
     grid-column-start: 6;
     grid-column-end: 7;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-top: 60%;
 }
 .dish-5{
     grid-column-start: 4;
     grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 .dish-6{
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
 }
@@ -206,11 +216,11 @@ html, body{
     transition: ease .5s;
 }
 
-.dish-1:hover, .dish-3:hover, .dish-5:hover{
+.dish-1:hover, .dish-4:hover, .dish-6:hover{
     transform: rotate(-5deg) translateY(-10px);
     cursor: pointer;
 }
-.dish-2:hover, .dish-4:hover,.dish-6:hover{
+    .dish-3:hover,.dish-5:hover{
     transform: rotate(5deg) translateY(-10px);
     cursor: pointer;
 }

@@ -25,7 +25,6 @@ function changePickupStoreMenu(){
 
         // ICON/TRIGGER
         var dish1 = document.querySelector("#dish1"),
-        dish2 = document.querySelector("#dish2"),
         dish3 = document.querySelector("#dish3"),
         dish4 = document.querySelector("#dish4"),
         dish5 = document.querySelector("#dish5"),
@@ -33,7 +32,6 @@ function changePickupStoreMenu(){
         
         // SLIDEOUTs
         var designs =  "#designs",
-        media = "#media",
         ideas = "#ideas",
         aboutMe = "#about-me",
         resume = "#resume",
@@ -42,14 +40,13 @@ function changePickupStoreMenu(){
     
         /* slide menu right */
         assignSlideoutToTrigger(dish1, designs);
-        assignSlideoutToTrigger(dish2, media);
         assignSlideoutToTrigger(dish3, ideas);
         assignSlideoutToTrigger(dish4, aboutMe);
         assignSlideoutToTrigger(dish5, resume);
         assignSlideoutToTrigger(dish6, finishFood);
     
     
-        var allSlideouts = [designs, media, ideas, aboutMe, resume, finishFood]
+        var allSlideouts = [designs, ideas, aboutMe, resume, finishFood]
 
     addHidingAbilityToSlideout(allSlideouts)
     /* hide active menu if close menu button is clicked */
