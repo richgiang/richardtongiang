@@ -75,7 +75,7 @@ html, body{
 
 .home-container{
     position: fixed;
-    top: 17%;
+    top: 35%;
     left: 5%;
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@ html, body{
 
 
 /* Home page chopsticks */
-.chopsticks img{
+/* .chopsticks img{
     position: fixed;
     top: 12%;
     left: 22%;
@@ -158,7 +158,7 @@ html, body{
 .chopsticks img:hover{
     transform: rotate(3deg);
     cursor: pointer;
-}
+} */
 
 /* Home page table */
 
@@ -504,14 +504,14 @@ html, body{
 .project-title-container{
     position: absolute;
     left: 20%;
-    top: 30%;
+    top: 25%;
 }
 
 .project-documentation-container{
     position: absolute;
     display: flex;
     flex-direction: column;
-    padding-top: 45%;
+    padding-top: 50%;
     padding-left: 20%;
     width: 60%;
     align-items: center;
@@ -546,7 +546,6 @@ html, body{
 
 .figma-embed{
     padding-top: 5%;
-    padding-bottom: 5%;
     width: 100%;
 }
 
@@ -557,9 +556,6 @@ html, body{
     width: 60%;
 }
 
-.role-container{
-    padding-left: 2%;
-}
 .role-container h1{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
@@ -595,6 +591,25 @@ html, body{
     letter-spacing: 120%;
     line-height: 150%;
     font-size: .9rem;
+}
+
+.problem-statement h1, .solution-statement h1{
+    width: 75%;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 120%;
+    font-size: 1.5rem;
+}
+
+.problem-statement p, .solution-statement p{
+    width: 70%;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 120%;
+    line-height: 150%;
+    font-size: 1rem;
 }
 
 /* Branch styling */
@@ -657,7 +672,7 @@ html, body{
     flex-direction: row;
 }
 
-.project-intro-text{
+/* .project-intro-text{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -669,12 +684,24 @@ html, body{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
-}
+} */
 
 
 .project-description{
     width: 75%;
     padding-top: 1%;
+}
+
+.callout{
+    width: 75%;
+    padding-left: 15%;
+    font-size: 1.5rem;
+    color: gray;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 550;
+    line-height: 120%;
+    font-style: normal;
+
 }
 
 
