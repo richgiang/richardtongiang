@@ -66,6 +66,7 @@ html, body{
 }
 
 
+
 /* Universal Underline Hover */
 
 
@@ -402,7 +403,9 @@ html, body{
 .project-number{
     font-size: 2rem;
     padding-left: 1%;
-    font-family: Prompt-Semi;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-style: normal
 }
 
 .link-flex{
@@ -508,32 +511,37 @@ html, body{
     position: absolute;
     display: flex;
     flex-direction: column;
-    padding-top: 70%;
+    padding-top: 45%;
     padding-left: 20%;
     width: 60%;
-    align-items: left;
+    align-items: center;
 }
 
 .documentation-text{
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 100%;
 }
 
 .project-documentation-container h1{
-    font-family: Subhead;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 2rem;
     padding-top: 5%;
+    text-align: left;
 }
 
 .documentation-text p{
-    font-family: Body;
-    font-size: 1rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 150%;
 }
 
 .documentation-photo img{
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 .figma-embed{
@@ -553,11 +561,19 @@ html, body{
     padding-left: 2%;
 }
 .role-container h1{
-    font-family: Subhead;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 120%;
+    line-height: 150%;
     font-size: 1.2rem;
 }
 .role-container p{
-    font-family: Body;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 120%;
+    line-height: 150%;
     font-size: 1rem;
 }
 
@@ -565,12 +581,20 @@ html, body{
     padding-right: 2%;
 }
 .info-container h1{
-    font-family: Subhead;
-    font-size: .8rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 120%;
+    line-height: 150%;
+    font-size: 1rem;
 }
 .info-container p{
-    font-family: Body;
-    font-size: .75rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 120%;
+    line-height: 150%;
+    font-size: .9rem;
 }
 
 /* Branch styling */
@@ -582,17 +606,24 @@ html, body{
 }
 
 .branch-subhead{
-    font-family: Subhead;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 2rem;
     line-height: 1.15;
+    letter-spacing: 110%;
 }
 .branch-subhead-big{
     font-family: Mirage;
     font-size: 4rem;
 }
 .branch-bodycopy{
-    font-family: Body;
-    font-size: 1rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 120%;
+    line-height: 150%;
+    font-size: 1.2rem;
 }
 .branch-thin{
     font-family: Nav;
@@ -609,13 +640,17 @@ html, body{
 }
 
 .design-subhead{
-    font-family: Prompt-Semi;
-    font-size: 3rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-
-
-/* project page build */
+.design-title{
+    font-size: 10rem;
+    font-family: Mirage;
+    line-height: 1.2;
+    padding-bottom: 2%;
+}
 
 .project-intro-container{
     display: flex;
@@ -636,17 +671,17 @@ html, body{
     grid-row-end: 4;
 }
 
-.design-title{
-    font-size: 10rem;
-    font-family: Mirage;
-    line-height: 1.2;
-    padding-bottom: 2%;
-}
 
 .project-description{
     width: 75%;
     padding-top: 1%;
 }
+
+
+
+/* project page build */
+
+/* 
 
 .screenshot{
     z-index: -1;
@@ -792,7 +827,7 @@ html, body{
 .define-text{
     font-family: Body;
     font-size: 1rem;
-}
+} */
 
 /* Print styling */
 
@@ -848,7 +883,7 @@ hr.divider{
 
 /* Resume styling */
 
-.resume-grid{
+/* .resume-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -969,7 +1004,7 @@ hr.divider{
 
 .resume-header-divider{
     padding-top: 10%;
-}
+} */
 
 
 
@@ -1077,7 +1112,7 @@ hr.divider{
 
 /* blog post */
 
-.blog-post-container{
+/* .blog-post-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1112,7 +1147,7 @@ hr.divider{
     font-family: Body;
     font-size: 14px;
     text-align: left;
-}
+} */
 
 .navbar-post {
     display:flex;
