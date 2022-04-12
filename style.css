@@ -540,9 +540,6 @@ html, body{
     line-height: 150%;
 }
 
-.documentation-photo img{
-    padding-top: 5%;
-}
 
 .figma-embed{
     padding-top: 5%;
@@ -554,6 +551,12 @@ html, body{
     display: grid;
     grid-template-columns: auto auto;
     width: 60%;
+    padding-bottom: 2%;
+}
+
+.role-container{
+    width: 85%;
+    padding-top: 3%;
 }
 
 .role-container h1{
@@ -593,6 +596,10 @@ html, body{
     font-size: .9rem;
 }
 
+.solution-statement{
+    padding-top: 5%;
+}
+
 .problem-statement h1, .solution-statement h1{
     width: 75%;
     font-family: neue-haas-grotesk-display, sans-serif;
@@ -610,6 +617,10 @@ html, body{
     letter-spacing: 120%;
     line-height: 150%;
     font-size: 1rem;
+}
+
+.documentation-photo{
+    padding-top: 5%;
 }
 
 /* Branch styling */
@@ -702,6 +713,23 @@ html, body{
     line-height: 120%;
     font-style: normal;
 
+}
+
+.jump-to{
+    padding-top: 20%;
+    background-color: rgba(214, 214, 214, 0.25);
+    width: 75%;
+    position: absolute;
+    color: black;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 10000000;
+    letter-spacing: 200%;
 }
 
 
