@@ -517,6 +517,12 @@ html, body{
     align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+    .project-documentation-container{
+        padding-top: 100%;
+    }
+}
+
 .documentation-text{
     display: flex;
     flex-direction: column;
