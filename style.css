@@ -710,14 +710,16 @@ html, body{
 }
 
 .callout{
-    width: 75%;
+    width: 85%;
     padding-left: 15%;
     font-size: 1.5rem;
     color: gray;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 550;
-    line-height: 120%;
+    line-height: 150%;
     font-style: normal;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 }
 
