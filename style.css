@@ -80,8 +80,13 @@ html, body{
     display: flex;
     flex-direction: column;
     width: 30vw;
-    height: 100vh;
     z-index: 100;
+}
+
+@media screen and (max-width: 2000px) {
+    .home-container{
+        top: 20%;
+    }
 }
 
 .home-header{
@@ -521,6 +526,7 @@ html, body{
     .project-documentation-container{
         padding-top: 100%;
     }
+    
 }
 
 .documentation-text{
