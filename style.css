@@ -522,9 +522,9 @@ html, body{
     align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1800px) {
     .project-documentation-container{
-        padding-top: 100%;
+        padding-top: 80%;
     }
     
 }
@@ -562,7 +562,7 @@ html, body{
     padding-top: 2%;
     display: grid;
     grid-template-columns: auto auto;
-    width: 60%;
+    width: 85%;
     padding-bottom: 2%;
 }
 
@@ -590,6 +590,7 @@ html, body{
 
 .info-container{
     padding-right: 2%;
+    width: 90%;
 }
 .info-container h1{
     font-family: neue-haas-grotesk-display, sans-serif;
