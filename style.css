@@ -522,7 +522,7 @@ html, body{
     align-items: center;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1920px) {
     .project-documentation-container{
         padding-top: 80%;
     }
