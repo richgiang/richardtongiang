@@ -747,6 +747,12 @@ html, body{
     letter-spacing: 200%;
 }
 
+.documentation-text h2{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
 
 
 /* project page build */
