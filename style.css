@@ -537,6 +537,12 @@ html, body{
     width: 100%;
 }
 
+.documentation-text h1{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
 .project-documentation-container h1{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 700;
