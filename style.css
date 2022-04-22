@@ -85,22 +85,13 @@ html, body{
 
 @media screen and (max-width: 1700px) {
     .home-container{
-        top: 20%;
-    }
-}
-
-@media screen and (max-width: 1400px){
-    .home-header{
-        font-size: 3.5rem;
-    }
-    .home-tagline{
-        font-size: 1.5rem;
+        top: 25%;
     }
 }
 
 .home-header{
     font-family: Mirage;
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     line-height: 1.15;
     color: black;
 }
@@ -108,7 +99,9 @@ html, body{
     font-family: Mirage-Bold;
 }
 .home-body{
-    font-family: Nav;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 1rem;
     line-height: 1.25;
     width: 80%;
