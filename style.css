@@ -83,15 +83,15 @@ html, body{
     z-index: 100;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1700px) {
     .home-container{
-        top: 20%;
+        top: 25%;
     }
 }
 
 .home-header{
     font-family: Mirage;
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     line-height: 1.15;
     color: black;
 }
@@ -99,7 +99,9 @@ html, body{
     font-family: Mirage-Bold;
 }
 .home-body{
-    font-family: Nav;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 1rem;
     line-height: 1.25;
     width: 80%;
@@ -535,6 +537,12 @@ html, body{
     width: 100%;
 }
 
+.documentation-text h1{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
 .project-documentation-container h1{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 700;
@@ -546,7 +554,7 @@ html, body{
 
 .documentation-text p{
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 1.2rem;
     line-height: 150%;
@@ -581,7 +589,7 @@ html, body{
 }
 .role-container p{
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
@@ -602,11 +610,11 @@ html, body{
 }
 .info-container p{
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 .solution-statement{
@@ -626,10 +634,10 @@ html, body{
     width: 70%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 120%;
     line-height: 150%;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .documentation-photo{
@@ -658,11 +666,11 @@ html, body{
 }
 .branch-bodycopy{
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .branch-thin{
     font-family: Nav;
@@ -751,13 +759,19 @@ html, body{
     color: black;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     z-index: 10000000;
     letter-spacing: 200%;
+}
+
+.documentation-text h2{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 500;
 }
 
 
@@ -1166,7 +1180,9 @@ hr.divider{
     width: 35%;
     text-align: left;
     font-size: 1rem;
-    font-family: Nav;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 300;
     padding-left: 5%;
     line-height: 1.2;
 }
@@ -1188,7 +1204,7 @@ hr.divider{
 .finish-image{
     padding-top: 10%;
     width: 80%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 
