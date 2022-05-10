@@ -640,9 +640,9 @@ html, body{
     font-size: 0.8rem;
 }
 
-.documentation-photo{
+/* .documentation-photo{
     padding-top: 5%;
-}
+} */
 
 /* Branch styling */
 
@@ -1157,13 +1157,13 @@ hr.divider{
 }
 
 .description-flex{
+    padding-top: 5%;
     display: flex;
     flex-direction: row;
     width: 70%;
 }
 
 .finish-description{
-    padding-top: 10%;
     width: 35%;
     text-align: left;
     font-size: 1rem;
@@ -1181,7 +1181,6 @@ hr.divider{
 }
 
 .finish-subhead{
-    padding-top: 10%;
     font-size: 2rem;
     font-family: Mirage-Bold;
     text-align: left;
@@ -1189,8 +1188,11 @@ hr.divider{
 }
 
 .finish-image{
-    padding-top: 10%;
+    padding-top: 5%;
     width: 80%;
+}
+
+.finish-padding{
     padding-bottom: 5%;
 }
 

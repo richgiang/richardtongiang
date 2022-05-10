@@ -1,0 +1,67 @@
+@font-face{
+    font-family: Mirage;
+    src: url(fonts/MADE\ Mirage\ Regular\ PERSONAL\ USE.otf)
+}
+@font-face{
+    font-family: Mirage-Thin;
+    src: url(fonts/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf)
+}
+@font-face{
+    font-family: Mirage-Medium;
+    src: url(fonts/MADE\ Mirage\ Medium\ PERSONAL\ USE.otf)
+}
+@font-face{
+    font-family: Mirage-Bold;
+    src: url(fonts/MADE\ Mirage\ Bold\ PERSONAL\ USE.otf)
+}
+
+
+.module-container{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+}
+
+.module-container-1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+}
+
+.section-padding{
+    padding-top: 15%;
+}
+
+.module-text{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+    padding-right: 20%;
+}
+
+.module-text h1{
+    font-family: Mirage-Bold;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.module-subhead{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.list-module-text{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+    padding-right: 5%;
+    width: 100%;
+}
