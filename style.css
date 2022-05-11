@@ -169,7 +169,7 @@ html, body{
 
 /* Home page table */
 
-.table-grid{
+/* .table-grid{
     padding-top: 13vh;
     padding-left: 25vw;
     display: grid;
@@ -230,16 +230,15 @@ html, body{
     .dish-3:hover,.dish-5:hover{
     transform: rotate(5deg) translateY(-10px);
     cursor: pointer;
-}
+} */
 
 /* Home page slideout */
 
 
-.slideout {
+/* .slideout {
     position: fixed;
     z-index: 10000;
     background-color: none;
-    /* overflow: hidden; */
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
@@ -268,7 +267,7 @@ html, body{
 
 .rotating img{
     animation: rotation 12s infinite linear;
-}
+} */
 
 
 /* Homepage mobile */
@@ -351,14 +350,16 @@ html, body{
   }
 
 .navbar-branch a{
-    font-family: Nav;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 100;
     text-decoration: none;
     color: black;
     transition: letter-spacing, 1s;
 }
 
 .navbar-branch a:hover{
-    font-family: Subhead;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
     letter-spacing: .1vw;
 }
 
@@ -928,7 +929,7 @@ html, body{
 
 /* Print styling */
 
-.section-heading{
+/* .section-heading{
     padding-top: 10%;
     font-family: Mirage;
     font-size: 3rem;
@@ -975,7 +976,7 @@ hr.divider{
 
 .grid-padding{
     padding-top: 2%;
-}
+} */
 
 
 /* Resume styling */
@@ -1162,7 +1163,7 @@ hr.divider{
     display: block;
     height: 100%;
     width: 98%;
-    font-size: 4.9rem;
+    font-size: 4.75rem;
     padding-top: 6%;
     font-family: Mirage;
     text-align: justify;
@@ -1185,10 +1186,13 @@ hr.divider{
     font-weight: 300;
     padding-left: 5%;
     line-height: 1.2;
+    text-align: justify;
 }
 
 .scroll-message{
-    font-family: Nav;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
     font-size: 1rem;
     padding-left: 95%;
 }
@@ -1207,6 +1211,14 @@ hr.divider{
 
 .finish-padding{
     padding-bottom: 5%;
+}
+
+.finish-callout{
+    padding-top: 5%;
+    font-family: Mirage-Bold;
+    font-size: 3rem;
+    width: 70%;
+    text-align: justify;
 }
 
 
