@@ -9,7 +9,7 @@ function assignSlideoutToTrigger(trigger, slideoutSelector){
 }
 
 function addHidingAbilityToSlideout(listOfSlideouts){
-    $(document).on('mouseout', ".dish", function(el,i){
+    $(document).on('mouseout', ".design", function(el,i){
         for (var i=0; i < listOfSlideouts.length; i++){
             $(listOfSlideouts[i]).css("left", "-50%");
         }
@@ -24,29 +24,23 @@ function changePickupStoreMenu(){
 
 
         // ICON/TRIGGER
-        var dish1 = document.querySelector("#dish1"),
-        dish3 = document.querySelector("#dish3"),
-        dish4 = document.querySelector("#dish4"),
-        dish5 = document.querySelector("#dish5"),
-        dish6 = document.querySelector("#dish6");
+        var design1 = document.querySelector("#design1"),
+        design1 = document.querySelector("#design2"),
+        design3 = document.querySelector("#design3");
         
         // SLIDEOUTs
-        var designs =  "#designs",
-        ideas = "#ideas",
-        aboutMe = "#about-me",
-        resume = "#resume",
-        finishFood = "#finish-food";
+        var carmen =  "#carmen",
+        crash = "#crash",
+        kroger = "#kroger";
      
     
         /* slide menu right */
-        assignSlideoutToTrigger(dish1, designs);
-        assignSlideoutToTrigger(dish3, ideas);
-        assignSlideoutToTrigger(dish4, aboutMe);
-        assignSlideoutToTrigger(dish5, resume);
-        assignSlideoutToTrigger(dish6, finishFood);
+        assignSlideoutToTrigger(design1, carmen);
+        assignSlideoutToTrigger(design2, crash);
+        assignSlideoutToTrigger(design3, kroger);
     
     
-        var allSlideouts = [designs, ideas, aboutMe, resume, finishFood]
+        var allSlideouts = [carmen, crash, kroger]
 
     addHidingAbilityToSlideout(allSlideouts)
     /* hide active menu if close menu button is clicked */

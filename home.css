@@ -131,6 +131,28 @@
     font-size: 1rem;
 }
 
+/* Slideout */
+
+.slideout {
+    position: fixed;
+    z-index: 10000;
+    background-color: none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    height: 100%;
+}
+
+.slide-menu-right {
+    left: -50%;
+    top: 8%;
+    width: 50%;
+    height: 100%;
+    z-index: 10000000;
+    overflow: hidden;
+}
 
 
 
