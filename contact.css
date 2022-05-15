@@ -1,0 +1,44 @@
+/* Contact page styling */
+
+.contact-statement{
+    display: block;
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    font-size: 6rem;
+    font-family: Mirage;
+    width: 50%;
+}
+
+.contact-email{
+    display: block;
+    position: fixed;
+    top: 62.5%;
+    left: 40%;
+    font-size: 1.5rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 550;
+    transition: letter-spacing 1s;
+}
+.contact-email:hover{
+    letter-spacing: .1vw;
+}
+
+.contact-message{
+    display: block;
+    position: fixed;
+    top: 70%;
+    left: 40%;
+    font-size: 1rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 100;
+    width: 30%;
+}
+
+.contact-image{
+    position: fixed;
+    display: block;
+    z-index: -1000;
+    top: 45%;
+    left: -20%;
+}

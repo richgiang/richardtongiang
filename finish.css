@@ -1,0 +1,70 @@
+/* Finish Your Food */
+
+.finish-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish-statement{
+    display: block;
+    height: 100%;
+    width: 98%;
+    font-size: 4.75rem;
+    padding-top: 6%;
+    font-family: Mirage;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.description-flex{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.finish-description{
+    width: 35%;
+    text-align: left;
+    font-size: 1rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 5%;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.scroll-message{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1rem;
+    padding-left: 95%;
+}
+
+.finish-subhead{
+    font-size: 2rem;
+    font-family: Mirage-Bold;
+    text-align: left;
+    line-height: 1.25;
+}
+
+.finish-image{
+    padding-top: 5%;
+    width: 80%;
+}
+
+.finish-padding{
+    padding-bottom: 5%;
+}
+
+.finish-callout{
+    padding-top: 5%;
+    font-family: Mirage-Bold;
+    font-size: 3rem;
+    width: 70%;
+    text-align: justify;
+}

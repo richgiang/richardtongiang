@@ -1,0 +1,140 @@
+/* .table{
+    position: fixed;
+    left: 30%;
+    top: 6%;
+    z-index: -1;
+} */
+
+
+
+
+
+/* Home page chopsticks */
+/* .chopsticks img{
+    position: fixed;
+    top: 12%;
+    left: 22%;
+    width: 20%;
+    transition: .5s ease;
+    z-index: 10000000;
+}
+.chopsticks img:hover{
+    transform: rotate(3deg);
+    cursor: pointer;
+} */
+
+/* Home page table */
+
+/* .table-grid{
+    padding-top: 13vh;
+    padding-left: 25vw;
+    display: grid;
+    width: 68vw;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    z-index: 100000000000000;
+    grid-gap: none;
+}
+
+.dish-1{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.dish-2{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.dish-3{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.dish-4{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-top: 60%;
+}
+.dish-5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.dish-6{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.dish-1, .dish-2, .dish-3, .dish-4, .dish-5, .dish-6{
+    transition: ease .5s;
+}
+
+.dish-1:hover, .dish-4:hover, .dish-6:hover{
+    transform: rotate(-5deg) translateY(-10px);
+    cursor: pointer;
+}
+    .dish-3:hover,.dish-5:hover{
+    transform: rotate(5deg) translateY(-10px);
+    cursor: pointer;
+} */
+
+/* Home page slideout */
+
+
+/* .slideout {
+    position: fixed;
+    z-index: 10000;
+    background-color: none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    height: 100%;
+}
+
+.slide-menu-right {
+    left: -50%;
+    top: 8%;
+    width: 50%;
+    height: 100%;
+    z-index: 10000000;
+    overflow: hidden;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(359deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+.rotating img{
+    animation: rotation 12s infinite linear;
+} */
+
+/* .project-intro-text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.project-intro-image{
+    z-index: -1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+} */
