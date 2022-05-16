@@ -4,7 +4,7 @@ changePickupStoreMenu();
 
 function assignSlideoutToTrigger(trigger, slideoutSelector){
     trigger.addEventListener("mouseover", function(){
-        $(slideoutSelector).css("left", "-25%");
+        $(slideoutSelector).css("left", "-20%");
     } );
 }
 
@@ -25,7 +25,7 @@ function changePickupStoreMenu(){
 
         // ICON/TRIGGER
         var design1 = document.querySelector("#design1"),
-        design1 = document.querySelector("#design2"),
+        design2 = document.querySelector("#design2"),
         design3 = document.querySelector("#design3");
         
         // SLIDEOUTs
