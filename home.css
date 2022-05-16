@@ -86,7 +86,7 @@
     z-index: 100;
     padding-left: 40vw;
     width: 60vw;
-    padding-top: 2.5%;
+    padding-top: 1%;
 }
 
 .thumbnail-1, .thumbnail-2, .thumbnail-3{
@@ -131,6 +131,28 @@
     font-size: 1rem;
 }
 
+.secondary-container{
+    padding-top: 2%;
+}
+
+.secondary-container-flex{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40vw;
+    width: 50vw;
+}
+.secondary-container-header{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+}
+.secondary-container-description{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-top: 1%;
+}
+
 /* Slideout */
 
 .slideout {
@@ -158,7 +180,7 @@
     position: fixed;
     height: 100%;
     width: 32.5%;
-    padding-left: 20%;
+    padding-left: 21%;
     padding-top: 5%;
 }
 .design-preview-flex{
@@ -183,7 +205,7 @@
     padding-top: 5%;
 }
 #carmen{
-    background-color: rgb(211, 117, 117);
+    background-color: #C36464;
 }
 #crash{
     background-color: rgb(119, 180, 119);
