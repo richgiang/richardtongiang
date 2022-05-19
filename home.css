@@ -173,7 +173,7 @@ marquee{
 }
 
 .thumbnail-1, .thumbnail-2, .thumbnail-3{
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 2.5%;
     display: flex;
     flex-direction: column;
@@ -221,7 +221,7 @@ marquee{
     flex-direction: column;
     width: 15vw;
     padding-right: 2.5%;
-    padding-top: 1.25%;
+    padding-top: 2%;
 }
 .secondary-container-header{
     font-family: neue-haas-grotesk-display, sans-serif;
