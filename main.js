@@ -5,14 +5,16 @@ changePickupStoreMenu();
 function assignSlideoutToTrigger(trigger, slideoutSelector){
     trigger.addEventListener("mouseover", function(){
         $(slideoutSelector).css("left", "-20%");
+        $('.mask').fadeIn();
     } );
 }
 
 function addHidingAbilityToSlideout(listOfSlideouts){
-    $(document).on('mouseout', ".design", function(el,i){
+    $(document).on('click', ".mask", function(el,i){
         for (var i=0; i < listOfSlideouts.length; i++){
             $(listOfSlideouts[i]).css("left", "-50%");
         }
+        $('.mask').fadeOut();
     });
 
 }
@@ -21,7 +23,7 @@ function changePickupStoreMenu(){
     var toggleSlideLeft;
     var body = $('body'),
     mask = $('<div class="mask"></div>');
-
+    $('body').append(mask);
 
         // ICON/TRIGGER
         var design1 = document.querySelector("#design1"),
