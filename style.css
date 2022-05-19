@@ -1,5 +1,4 @@
 html, body{
-    background-color: none;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -7,6 +6,7 @@ html, body{
     overflow-x: hidden;
     overflow-y: scroll;
 }
+
 
 .cursor{
     width: 8rem;
@@ -82,12 +82,11 @@ html, body{
 }
 
 .nav-sig-container{
-    top: 3%;
-    left: 3%;
     border-bottom: 1px black;
     width: 100%;
-    background-color: #FFFAF1;
     z-index: 9999999999999999999;
+    background-color: #FFFAF1;
+    position: absolute;
 }
 
 
@@ -96,6 +95,7 @@ html, body{
     flex-direction: row;
     flex-wrap: nowrap;
     z-index: 9999999999999999;
+    position: fixed;
 }
 
 .nav-padding{
@@ -112,6 +112,7 @@ html, body{
 
 .nav-padding a:hover{
     letter-spacing: .1vw;
+    cursor: pointer;
 }
 
   @media screen and (max-width: 400px) {

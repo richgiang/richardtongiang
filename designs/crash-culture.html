@@ -7,25 +7,28 @@
     <title>Crash Culture</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../module.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
 
-    <div class="signature">
-        <a href="../index.html">RICHARD TON GIANG</a>
-     </div>
 
-     <div class="navbar-branch">
-        <div>
-            <a href="../index.html">HOME</a>  
-        </div>
-        <div>
-            <a href="../contact/index.html">CONTACT</a>
-        </div>
-        <div>
-            <a class="nav-about" href="assets/Giang_Richard_Resume.pdf" target="_blank">RESUME</a>
-        </div>
-        <div>
-            <a href="../finish-food/index.html">ABOUT</a>
+    <div class="nav-sig-container">
+        <div class="nav-container | navbar-branch">
+            <div class="nav-padding">
+                <a href="../index.html">HOME</a> 
+             </div>
+             <div class="nav-padding">
+                <a class="nav-contact" href="/contact/index.html">CONTACT</sa>
+             </div>
+             <div class="nav-padding">
+                <a class="nav-about" href="assets/Giang_Richard_Resume.pdf" target="_blank">RESUME</a>
+             </div>
+             <div class="nav-padding">
+                <a href="../finish-food/index.html">ABOUT</a>
+             </div>
+       </div>
+       <div class="signature">
+        <a href="../index.html">RICHARD TON GIANG</a>
         </div>
     </div>
 
@@ -203,11 +206,19 @@
                 The goal: I wanted to pull from the low-stakes commitment of a short game once per day while having the brief, yet meaningful engagement of BeReal. This way there would be a level of flexibility allowing users to choose how in-depth they'd like to immerse themselves while still being motivated to move past the scary first steps. 
             </p>
         </div>
-        <div class="documentation-photo">
-            <img src="../assets/Crash_Culture_Theme1-03.png" width="100%" alt="">
-            <img src="../assets/Crash_Culture_Theme1-04.png" width="100%" alt="">
-            <img src="../assets/Crash_Culture_Theme1-05.png" width="100%" alt="">
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img class="carousel-image | carousel-image-1" src="../assets/Crash_Culture_Theme1-03.png" alt="">
+                    <img class="carousel-image | carousel-image-2" src="../assets/Crash_Culture_Theme1-04.png" alt="">
+                    <img class="carousel-image | carousel-image-3" src="../assets/Crash_Culture_Theme1-05.png" alt="">
+                </div>
+                <button class="carousel-btn btn-left" id="previous"><i class="fa-solid fa-chevron-left icon-left"></i></button>
+                <button class="carousel-btn btn-right" id="next"><i class="fa-solid fa-chevron-right icon-right"></i></button>
+            </div>
         </div>
+        <script src="../carousel.js"></script>
 
         <div class="documentation-text">
             <h2>
@@ -232,10 +243,20 @@
                 The goal: I wanted to nudge users to connect with those in their cultural community that they come to like in a pseudo-groupchat-platonic-speeddating setting. With this, there would be opportunities for forming deep connections with those they may not have connected with in their community.  
             </p>
         </div>
-        <div class="documentation-photo">
-            <img src="../assets/Crash_Culture_Theme2-09.png" width="100%" alt="">
-            <img src="../assets/Crash_Culture_Theme2-10.png" width="100%" alt="">
-            <img src="../assets/Crash_Culture_Theme2-11.png" width="100%" alt="">
+
+
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img class="carousel1-image | carousel1-image-1" src="../assets/Crash_Culture_Theme2-09.png" alt="">
+                    <img class="carousel1-image | carousel1-image-2" src="../assets/Crash_Culture_Theme2-10.png" alt="">
+                    <img class="carousel1-image | carousel1-image-3" src="../assets/Crash_Culture_Theme2-11.png" alt="">
+                </div>
+                <button class="carousel-btn1 btn-left1" id="previous"><i class="fa-solid fa-chevron-left icon-left"></i></button>
+                <button class="carousel-btn1 btn-right1" id="next"><i class="fa-solid fa-chevron-right icon-right"></i></button>
+            </div>
+            <script src="../carousel1.js"></script>
         </div>
 
         <div class="documentation-text">
@@ -261,12 +282,19 @@
                 The goal: With this concept, I wanted to provide an educational platform that users of any level could join while still incorporating a low level of community engagement. This concept is more information heavy for those that are less inclined to cold-contact those in their community. 
             </p>
         </div>
-        <div class="documentation-photo">
-            <img src="../assets/Crash_Culture_Theme3-15.png" width="100%" alt="">
-            <img src="../assets/Crash_Culture_Theme3-16.png" width="100%" alt="">
-            <img src="../assets/Crash_Culture_Theme3-17.png" width="100%" alt="">
-        </div>
 
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img class="carousel-image | carousel-image-1" src="../assets/Crash_Culture_Theme3-15.png" alt="">
+                    <img class="carousel-image | carousel-image-2" src="../assets/Crash_Culture_Theme3-16.png" alt="">
+                    <img class="carousel-image | carousel-image-3" src="../assets/Crash_Culture_Theme3-17.png" alt="">
+                </div>
+                <button class="carousel-btn btn-left" id="previous"><i class="fa-solid fa-chevron-left icon-left"></i></button>
+                <button class="carousel-btn btn-right" id="next"><i class="fa-solid fa-chevron-right icon-right"></i></button>
+            </div>
+        </div>
+        <script src="../carousel.js"></script>
 
         <div class="documentation-text">
             <h1  id="prototype" >
@@ -312,6 +340,9 @@
             <p>
                 I tested the Adobe XD prototype with five users who fit the testing requirements: young immigrants with access to technology. To do this, I created testing prototcol and conducted the tests in person, recording results and getting feedback in real time. I broke down the prototype into 6 different tasks. Based on the results of the test, I compiled my findings, made recommendations, and concluded on whether the application could prove to be successful in implementation. 
             </p>
+
+
+
             <div class="module-container">
                 <div>
                     <img src="../assets/CrashCulture_UserTestReport-03.png" alt="" width="100%">
@@ -358,6 +389,8 @@
                 </div>
             </div>
         </div>
+
+    
 
         <div class="documentation-text">
             <h1>
