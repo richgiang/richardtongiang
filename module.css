@@ -58,6 +58,7 @@
     text-align: left;
     justify-content: left;
     width: 100%;
+    align-items: center;
 }
 
 .module-container-1{
@@ -358,3 +359,8 @@
     font-size: 1vw;
 }
 
+/* Prototype display */
+
+.screenshot{
+    padding-right: 1vw;
+}
