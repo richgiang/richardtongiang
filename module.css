@@ -40,7 +40,6 @@
     font-size: 1.75rem;
     cursor: pointer;
     color: black;
-    border-bottom: 2px solid black;
     padding-bottom: 2vh;
     width: 100%;
     padding-top: 2vh;
@@ -119,6 +118,7 @@
     font-style: normal;
     font-size: 1.2rem;
     line-height: 1.3;
+    letter-spacing: 0.025vw
 }
 
 .module-description h1{
@@ -173,6 +173,7 @@
     padding-bottom: 5%;
     color: gray;
 }
+
 
 
 /* Carousel */
@@ -293,22 +294,67 @@
 .tldr-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
 }
 
 .tldr{
     font-family: Mirage;
-    font-size: 2vw;
+    font-size: 1.5vw;
     width: 30vw;
     padding-right: 2.5vw;
-    border-right: 2px solid black;
+    line-height: 1.25;
 }
+
+
+/* Carmen TLDR */
 
 .tldr span{
-    
-}
-
-.tldr-description{
-    width: 30vw;
-    padding-left: 2.5vw;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
     font-size: 1vw;
 }
+.carmen-type{
+    color: #C36464;
+}
+
+.tldr-description-carmen{
+    width: 30vw;
+    padding-left: 2.5vw;
+    font-size: 0.75vw;
+    border-left: 2px solid #C36464;
+}
+.tldr-description-carmen p{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    letter-spacing: 0.025vw
+}
+
+/* Carmen Callout */
+
+.callout-container{
+    padding-top: 3vh;
+    width: 45vw;
+    padding-left: 10vw;
+    font-size: 0.75vw;
+    padding-bottom: 5vh;
+}
+
+.callout-body-carmen{
+    font-family: Mirage;
+    font-size: 1.5vw;
+    width: 45vw;
+    padding-left: 2.5vw;
+    line-height: 1.25; 
+    border-left: 2px solid #C36464;
+}
+.callout-body-carmen span{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
