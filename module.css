@@ -15,7 +15,6 @@
     src: url(fonts/MADE\ Mirage\ Bold\ PERSONAL\ USE.otf)
 }
 
-
 .padding1{
     padding-top: 1%;
 }
@@ -30,6 +29,27 @@
 }
 .padding5{
     padding-top: 5%;
+}
+
+/* Sig */
+
+.signature-branch{
+    display: block;
+    position: fixed;
+    font-family: Mirage-Thin;
+    font-size: 1.75rem;
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 2vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    background-color: white;
+}
+.signature-branch a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -154,37 +174,6 @@
     color: gray;
 }
 
-.cursor-hover a img:hover{
-    cursor: pointer;
-    opacity: 0.5;
-}
-.cursor-hover a img{
-    opacity: 1;
-	-webkit-transition: 0.3s ease-in-out;
-	transition: 0.3s ease-in-out;
-}
-
-.cursor-hover{
-    text-align: center;
-    position: relative;
-}
-
-.click-me{
-    display: none;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1rem;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-}
-.cursor-hover a img:hover + .click-me{
-    display: contents;
-}
 
 /* Carousel */
 
@@ -256,9 +245,6 @@
 
   /* Carousel1 */
 
-  
-  
-  
   .carousel1-image {
     transition: all 0.9s;
     width: 100%;
@@ -300,3 +286,29 @@
     font-size: 2rem;
     color: black;
   }
+
+
+/* TLDR */
+
+.tldr-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.tldr{
+    font-family: Mirage;
+    font-size: 2vw;
+    width: 30vw;
+    padding-right: 2.5vw;
+    border-right: 2px solid black;
+}
+
+.tldr span{
+    
+}
+
+.tldr-description{
+    width: 30vw;
+    padding-left: 2.5vw;
+    font-size: 1vw;
+}

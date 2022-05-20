@@ -9,14 +9,14 @@ html, body{
 
 
 .cursor{
-    width: 8rem;
-    height: 8rem;
+    width: 8vw;
+    height: 8vw;
     border: 2px solid black;
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     pointer-events: none;
-    z-index: 1000000000000000;
+    z-index: 9999999999999999999999999;
 }
 
 @font-face{
@@ -76,16 +76,17 @@ html, body{
 
 .nav-container{
     position: absolute;
-    left: 65%;
+    left: 65vw;
     width: 20vw;
-    padding-top: 1.5%;
+    padding-top: 3vh;
+    /* background-color: white; */
 }
 
 .nav-sig-container{
     border-bottom: 1px black;
-    width: 100%;
-    z-index: 9999999999999999999;
-    background-color: #FFFAF1;
+    width: 100vw;
+    z-index: 9999999999999;
+    /* background-color: white; */
     position: absolute;
 }
 
@@ -94,12 +95,14 @@ html, body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    z-index: 9999999999999999;
+    z-index: 99999999999;
     position: fixed;
+    /* background-color: white; */
 }
 
 .nav-padding{
-    padding-right: 30%;
+    padding-right: 6vw;
+    /* background-color: white; */
 }
 
 .nav-padding a{
@@ -137,7 +140,7 @@ html, body{
   }
 
   .project-number{
-    font-size: 2rem;
+    font-size: 1.5vw;
     padding-left: 1%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 700;
@@ -153,7 +156,7 @@ html, body{
     top: 50%;
     transform: rotate(270deg);
     font-family: Nav;
-    font-size: 2.5rem;
+    font-size: 5vh;
     transition: letter-spacing .75s;
     z-index: 100000;
 }
@@ -174,10 +177,10 @@ html, body{
     cursor: pointer;
     color: black;
     border-bottom: 2px solid black;
-    padding-bottom: 1%;
+    padding-bottom: 2vh;
     width: 100%;
-    padding-top: 1%;
-    padding-left: 3%;
+    padding-top: 2vh;
+    padding-left: 3vw;
 }
 
 .signature a{
@@ -339,6 +342,7 @@ html, body{
     font-size: 2rem;
     line-height: 1.15;
     letter-spacing: 110%;
+    width: 70%;
 }
 .branch-subhead-big{
     font-family: Mirage;
@@ -401,8 +405,8 @@ html, body{
 
 .callout-item{
     width: 100%;
-    font-size: 1.2rem;
-    color: gray;
+    font-size: 1.5rem;
+    color: black;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 550;
     line-height: 130%;

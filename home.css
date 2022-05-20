@@ -37,15 +37,15 @@ marquee{
 }
 
 .home-content{
-    width: 27.5%;
-    padding-left: 3%;
-    padding-top: 9%;
-    padding-right: 5%;
+    width: 27.5vw;
+    padding-left: 3vw;
+    padding-top: 16.5vh;
+    padding-right: 5vw;
 }
 
 .home-header{
     font-family: Mirage;
-    font-size: 4.5rem;
+    font-size: 4vw;
     line-height: 1.15;
     color: black;
 }
@@ -56,15 +56,16 @@ marquee{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1vw;
     line-height: 1.25;
-    width: 80%;
+    width: 22.5vw;
     color: black;
+    padding-top: 0.5vh;
 }
 .home-tagline{
     font-family: Mirage-Bold;
-    font-size: 2rem;
-    padding-top: 1%;
+    font-size: 2vw;
+    padding-top: 1.25vh;
     color: black;
 }
 .home-tagline a{
@@ -79,7 +80,7 @@ marquee{
     z-index: 999999999999999;
     position: relative;
 }
-.home-tagline a span:after{
+/* .home-tagline a span:after{
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -94,7 +95,7 @@ marquee{
 .home-tagline a span:hover:after{
     width: 100%; 
     left: 0; 
-}
+} */
 
 .link-flex{
     position: relative;
@@ -102,7 +103,7 @@ marquee{
     flex-direction: column;
     z-index: 100;
     padding-left: 7.5vw;
-    padding-top: 9%;
+    padding-top: 15.5vh;
     width: 60vw;
 }
 
@@ -147,8 +148,8 @@ marquee{
 
 
 .project-title{
-    padding-bottom: 4.75%;
-    font-size: 7rem;
+    padding-bottom: 3.5vw;
+    font-size: 7rem; 
     font-family: Mirage;
 }
 
