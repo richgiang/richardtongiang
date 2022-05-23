@@ -61,6 +61,20 @@
 .content-button a{
     text-decoration: none;
     color: black;
+    transition: ease 0.5s;
+}
+
+.content-button a:hover{
+    letter-spacing: 00.075vw;
+}
+
+.content-button img{
+    width: 1vw;
+    height: 1vw;
+}
+
+.ideas-padding-right{
+    padding-right: 2.5vw;
 }
 
 
