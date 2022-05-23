@@ -199,6 +199,7 @@ html, body{
     position: absolute;
     left: 20vw;
     top: 25vh;
+    width: 80vw;
 }
 
 .project-documentation-container{
