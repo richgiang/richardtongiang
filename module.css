@@ -113,8 +113,7 @@
 .module-bold{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 550;
-    color: gray;
-    font-size: 1.2rem;
+    font-size: 1.2;
     line-height: 1.3;
 }
 
@@ -310,8 +309,6 @@
 }
 
 
-/* TLDR */
-
 .tldr span{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
@@ -423,6 +420,57 @@
     font-size: 1vw;
     letter-spacing: 0.005vw;
 }
+/* TLDR KROGER */
+
+.tldr-description-kroger{
+    width: 30vw;
+    padding-left: 2.5vw;
+    font-size: 0.75vw;
+}
+.tldr-description-kroger p{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    letter-spacing: 0.025vw;
+}
+
+.tldr-description-kroger-reverse{
+    width: 30vw;
+    padding-right: 2.5vw;
+    font-size: 0.75vw;
+    border-right: 2px solid #0066B6;
+}
+.tldr-description-kroger-reverse p{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    letter-spacing: 0.025vw;
+}
+
+.kroger-border-left{
+    border-left: 2px solid #0066B6;
+}
+
+.kroger-border-right{
+    border-right: 2px solid #0066B6;
+}
+
+.tldr-description-kroger span{
+    font-family: Mirage-Bold;
+    font-size: 1.5vw;
+}
+
+.tldr-body-kroger{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1vw;
+    letter-spacing: 0.005vw;
+}
 
 
 /* Callout */
@@ -462,6 +510,22 @@
     border-left: 2px solid #4E7566;
 }
 .callout-body-crash span{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+/* Kroger Callout */
+
+.callout-body-kroger{
+    font-family: Mirage;
+    font-size: 1.5vw;
+    width: 45vw;
+    padding-left: 2.5vw;
+    line-height: 1.25; 
+    border-left: 2px solid #0066B6;
+}
+.callout-body-kroger span{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
     font-size: 1vw;
