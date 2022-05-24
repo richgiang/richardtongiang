@@ -76,7 +76,7 @@ html, body{
 
 .nav-container{
     position: absolute;
-    left: 65vw;
+    left: 67.5vw;
     width: 20vw;
     padding-top: 3.5vh;
     /* background-color: white; */
@@ -101,7 +101,7 @@ html, body{
 }
 
 .nav-padding{
-    padding-right: 6vw;
+    padding-right: 5vw;
     /* background-color: white; */
 }
 
@@ -173,12 +173,12 @@ html, body{
     display: block;
     position: fixed;
     font-family: Mirage-Thin;
-    font-size: 1.75rem;
+    font-size: 1.75vw;
     cursor: pointer;
     color: black;
     /* border-bottom: 2px solid black; */
     padding-bottom: 2vh;
-    width: 100%;
+    width: 100vw;
     padding-top: 3vh;
     padding-left: 3vw;
 }
@@ -250,8 +250,8 @@ html, body{
 
 
 .figma-embed{
-    padding-top: 5%;
     width: 100%;
+    padding-top: 2.5vh;
 }
 
 .project-info-container{
