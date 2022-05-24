@@ -165,6 +165,7 @@
 
 .thumbnail-1:hover, .thumbnail-2:hover, .thumbnail-3:hover{
     transform: scale(105%);
+    cursor: pointer;
 }
 
 .thumbnail-spacer{
