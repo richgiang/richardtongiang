@@ -9,10 +9,10 @@
 
 .finish-statement{
     display: block;
-    height: 70%;
+    height: 70vh;
     width: 85%;
-    font-size: 3.25rem;
-    padding-top: 8%;
+    font-size: 3vw;
+    padding-top: 15vh;
     font-family: Mirage;
     text-align: justify;
     line-height: 1.2;
@@ -23,34 +23,26 @@
 }
 
 .description-flex{
-    padding-top: 3%;
+    padding-top: 7.5vh;
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 70vw;
 }
 
 .finish-description{
-    width: 35%;
+    width: 35vw;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1vw;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 300;
-    padding-left: 5%;
+    padding-left: 5vw;
     line-height: 1.2;
     text-align: justify;
 }
 
-.scroll-message{
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 1rem;
-    padding-left: 95%;
-}
-
 .finish-subhead{
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: Mirage-Bold;
     text-align: left;
     line-height: 1.25;
@@ -60,6 +52,15 @@
 .finish-image{
     padding-top: 5%;
     width: 80%;
+    display: flex;
+    flex: row;
+}
+
+.finish-caption{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 0.9vw;
+    letter-spacing: 0.015vw;
 }
 
 .finish-padding{
@@ -67,13 +68,41 @@
 }
 
 .finish-callout{
-    padding-top: 5%;
+    padding-top: 7.5vh;
     font-family: Mirage-Bold;
-    font-size: 3rem;
-    width: 70%;
+    font-size: 3vw;
+    width: 70vw;
     text-align: justify;
 }
 
 .finish-callout span{
     color: #4E7566;
 }
+
+.finish-info-container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    padding-left: 2vw;
+}
+
+.finish-info-container h1{
+    font-family: Mirage-Bold;
+    font-size: 1vw;
+    font-style: normal;
+    color: #4E7566;
+}
+
+.info-item{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 1vw;
+    font-style: normal;
+    padding-bottom: 1.5vh;
+}
+
+.info-item span{
+    font-weight: 550;
+    color: #4E7566;
+}
+
