@@ -336,67 +336,57 @@
 
 
 
-/* Homepage mobile */
 
-.mobile-design-flex{
+
+/* Mobile Warning */
+
+
+.mobile-message-background{
     display: none;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
 }
-.mobile-padding{
-    padding-top: 7.5%;
-}
-.mobile-padding1{
-    padding-top: 5%;
-}
-.mobile-design{
+
+.mobile-message-container{
+    position: absolute;
     display: flex;
     flex-direction: column;
-    /* background-color: #FFE8D6; */
-    border-radius: 30px;
-    width: 90%;
-    height: 100%;
-    text-align: left;
-    padding-bottom: 5%;
-    background-color: rgb(226, 226, 226);
-}
-.mobile-title{
-    padding-left: 5%;
-    font-size: 2rem;
-    font-family: Mirage;
-    
-}
-.mobile-subtitle{
-    padding-left: 5%;
-    font-family: Subhead;
-    font-size: 1rem;
-}
-.mobile-button{
-    padding-left: 5%;
-    padding-top: 2%;
-}
-.mobile-design button{
-    border-radius: 30px;
-    font-size: .8rem;
-    font-family: Nav;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-color: black;
-    background-color: white ;
-    border-width: 1px;
+    left: 20vw;
+    top: 40vh;
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
 }
 
-.mobile-home-description{
-    padding-bottom: 5%;
-    width: 80%;
+.mobile-message{
+    font-family: Mirage;
+    font-size: 4.5vw;
+    padding-bottom: 2.5vh;
     text-align: center;
-    font-size: .8rem;
-    font-family: Body;
-    line-height: 1.15;
 }
-.mobile-home-description span{
-    font-family: Subhead;
+
+.mobile-message-container button{
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    padding-left: 1.25vh;
+    padding-right: 1.25vh;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+@media screen and (max-width: 400px) {
+    .mobile-message-background{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-container, .link-flex{
+        display: none;
+    }
 }
