@@ -7,46 +7,6 @@ html, body{
     overflow-y: scroll;
 }
 
-/* 
-.cursor{
-    width: 8vw;
-    height: 8vw;
-    border: 2px solid black;
-    border-radius: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    z-index: 9999999999999999999999999;
-} */
-
-@font-face{
-    font-family: Header;
-    src: url(fonts/RoslindaleText-Bold.ttf);
-}
-@font-face{
-    font-family: Subhead;
-    src: url(fonts/Prompt-Medium.ttf);
-}
-@font-face{
-    font-family: Body;
-    src: url(fonts/Prompt-Light.ttf);
-}
-@font-face{
-    font-family: Regular;
-    src: url(fonts/RoslindaleText-Regular.ttf);
-}
-@font-face{
-    font-family: Nav;
-    src: url(fonts/Prompt-Thin.ttf);
-}
-@font-face{
-    font-family: Prompt-Semi;
-    src: url(fonts/Prompt-SemiBold.ttf);
-}
-@font-face{
-    font-family: Italics;
-    src: url(fonts/Prompt-LightItalic.ttf);
-}
 
 @font-face{
     font-family: Mirage;
@@ -64,9 +24,6 @@ html, body{
     font-family: Mirage-Bold;
     src: url(fonts/MADE\ Mirage\ Bold\ PERSONAL\ USE.otf)
 }
-
-
-
 
 
 
@@ -143,7 +100,7 @@ html, body{
     font-size: 1.5vw;
     padding-left: 1%;
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
+    font-weight: 550;
     font-style: normal
 }
 
@@ -155,7 +112,8 @@ html, body{
     position: fixed;
     top: 50%;
     transform: rotate(270deg);
-    font-family: Nav;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
     font-size: 5vh;
     transition: letter-spacing .75s;
     z-index: 100000;
@@ -214,7 +172,7 @@ html, body{
 
 @media screen and (max-width: 1920px) {
     .project-documentation-container{
-        padding-top: 80%;
+        padding-top: 77.5%;
     }
     
 }
@@ -228,7 +186,7 @@ html, body{
 .documentation-text h1{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 550;
 }
 
 .project-documentation-container h1{
@@ -269,7 +227,7 @@ html, body{
 
 .role-container h1{
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
+    font-weight: 550;
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
@@ -290,7 +248,7 @@ html, body{
 }
 .info-container h1{
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
+    font-weight: 550;
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
@@ -313,7 +271,7 @@ html, body{
     width: 75%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 550;
     letter-spacing: 120%;
     font-size: 1.5rem;
 }
@@ -338,7 +296,7 @@ html, body{
 
 .branch-subhead{
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
+    font-weight: 550;
     font-style: normal;
     font-size: 2rem;
     line-height: 1.15;
