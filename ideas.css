@@ -104,3 +104,49 @@
     font-size: 0.8vw;
     text-align: right;
 }
+
+/* Ideas Sub-pages */
+
+.ideas-container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding-left: 10vw;
+    padding-top: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.ideas-item{
+    padding-top: 7.5vh;
+}
+
+.idea-description{
+    font-family: Mirage;
+    font-size: 1.2vw;
+    width: 75%;
+    padding-top: 2vh;
+}
+
+.idea-description span{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 550;
+    font-size: 1vw;
+}
+
+.idea-button{
+    padding-top: 1.5vh;
+}
+
+.idea-button button{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 1vw;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: none;
+    border: 2px solid black;
+    border-radius: 25px;
+}
