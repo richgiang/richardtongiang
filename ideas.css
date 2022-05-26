@@ -112,13 +112,13 @@
     flex-direction: column;
     width: 80vw;
     padding-left: 10vw;
-    padding-top: 5vh;
+    padding-top: 12vh;
     align-items: center;
     justify-content: center;
 }
 
-.ideas-item{
-    padding-top: 7.5vh;
+.idea-item{
+    padding-bottom: 7.5vh;
 }
 
 .idea-description{
@@ -126,17 +126,21 @@
     font-size: 1.2vw;
     width: 75%;
     padding-top: 2vh;
+    padding-bottom: 2.5vh;
 }
 
 .idea-description span{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 550;
     font-size: 1vw;
+    padding-bottom: 2.5vh;
 }
 
-.idea-button{
-    padding-top: 1.5vh;
+.idea-image img:hover{
+    cursor: pointer;
+    opacity: 0.75;
 }
+
 
 .idea-button button{
     font-family: neue-haas-grotesk-display, sans-serif;
@@ -144,9 +148,28 @@
     font-size: 1vw;
     padding-top: 0.8vh;
     padding-bottom: 0.8vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
     background-color: none;
     border: 2px solid black;
     border-radius: 25px;
+}
+
+.idea-button button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.ideas-section-title{
+    font-family: Mirage-Bold;
+    font-size: 2.5vw;
+}
+
+.box-shadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.idea-padding{
+    padding-top: 5vh;
 }
