@@ -621,6 +621,11 @@
 /* Header */
 
 
+.header-container{
+    padding-top: 12.5vh;
+    justify-content: center;
+    align-items: center;
+}
 .header-photo{
-    padding-bottom: 10vh;
+    width: 100%;
 }

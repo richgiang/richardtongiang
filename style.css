@@ -35,7 +35,7 @@ html, body{
     position: absolute;
     left: 67.5vw;
     width: 20vw;
-    padding-top: 3.5vh;
+    padding-top: 3vh;
     /* background-color: white; */
 }
 
@@ -154,28 +154,29 @@ html, body{
 /* New Branch Styling */
 
 .project-title-container{
-    position: absolute;
-    left: 20vw;
-    top: 25vh;
+    display: flex;
+    flex-direction: column;
     width: 80vw;
+    padding-left: 20vw;
+    padding-top: 17.5vh;
 }
 
 .project-documentation-container{
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding-top: 50vh;
+    padding-top: 5vh;
     padding-left: 20vw;
     width: 60vw;
     align-items: center;
 }
 
-@media screen and (max-width: 1920px) {
+/* @media screen and (max-width: 1920px) {
     .project-documentation-container{
         padding-top: 77.5%;
     }
     
-}
+} */
 
 .documentation-text{
     display: flex;
@@ -213,16 +214,14 @@ html, body{
 }
 
 .project-info-container{
-    padding-top: 2%;
     display: grid;
     grid-template-columns: auto auto;
-    width: 85%;
-    padding-bottom: 2%;
+    width: 100%;
+    padding-bottom: 2vh;
 }
 
 .role-container{
-    width: 85%;
-    padding-top: 3%;
+    width: 100%;
 }
 
 .role-container h1{
@@ -252,7 +251,7 @@ html, body{
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
-    font-size: 1rem;
+    font-size: 1.2vw;
 }
 .info-container p{
     font-family: neue-haas-grotesk-display, sans-serif;
@@ -260,7 +259,7 @@ html, body{
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
-    font-size: .8vw;
+    font-size: 1vw;
 }
 
 .solution-statement{
@@ -273,17 +272,17 @@ html, body{
     font-style: normal;
     font-weight: 550;
     letter-spacing: 120%;
-    font-size: 1.5rem;
+    font-size: 1.2vw;
 }
 
 .problem-statement p, .solution-statement p{
-    width: 70%;
+    width: 100%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 300;
     letter-spacing: 120%;
     line-height: 150%;
-    font-size: 0.8vw;
+    font-size: 1vw;
 }
 
 /* Branch styling */
