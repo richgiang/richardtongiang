@@ -618,6 +618,10 @@
     padding-right: 1vw;
 }
 
+.arrow-container a:hover{
+    cursor: pointer;
+}
+
 /* Header */
 
 
