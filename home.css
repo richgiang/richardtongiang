@@ -13,7 +13,6 @@
 } */
 
 
-
 .home-container{
     position: fixed;
     display: flex;
@@ -23,6 +22,10 @@
     flex-direction: row;
     background-color: #EFEFEF;
     /* border-bottom: 2px solid black; */
+}
+.home-container img{
+    position: absolute;
+    z-index: -100;
 }
 
 
@@ -256,84 +259,6 @@
 
 /* EXTRAS & IDEAS */
 
-
-/* Slideout */
-
-/* .slideout {
-    position: absolute;
-    z-index: 10000;
-    background-color: none;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    height: 100%;
-    border-radius: 0 50px 50px 0;
-    padding-top: none;
-    bottom: 0;
-} */
-/* 
-.slide-menu-right {
-    left: -50%;
-    width: 50%;
-    height: 100%;
-    z-index: 10000000;
-    overflow: hidden;
-    background-color: #EFEFEF;
-}
-.design-preview{
-    position: fixed;
-    height: 100%;
-    width: 32.5%;
-    padding-left: 21%;
-    padding-top: 4%;
-}
-.design-preview-flex{
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    width: 70%;
-    align-items: left;
-    justify-content: center;
-}
-.design-preview-header{
-    font-family: Mirage-Bold;
-    font-size: 2rem;
-}
-.design-preview-image{
-    padding-top: 3%;
-}
-.design-preview-description{
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    padding-top: 5%;
-}
-
-.skills-flex{
-    padding-top: 2%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.skill-box{
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    background-color: white;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
-    font-size: 0.7rem;
-    border-radius: 50px;
-}
-.skill-box-padding{
-    padding-right: 1%;
-}
-.skill-box-padding-1{
-    width: 100%;
-} */
 
 
 
