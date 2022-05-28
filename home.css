@@ -240,6 +240,9 @@
     text-decoration: none;
     color: black;
 }
+.copyright-flex div a:hover{
+    cursor: pointer;
+}
 
 .copyright-flex div{
     font-family: neue-haas-grotesk-display, sans-serif;
