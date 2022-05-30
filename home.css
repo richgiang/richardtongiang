@@ -22,6 +22,7 @@
     flex-direction: row;
     /* background-color: #EFEFEF; */
     /* border-bottom: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 20px;
 }
 .home-container img{
     position: absolute;
@@ -164,7 +165,7 @@
     background-color: rgba(239, 239, 239, 0.5);
     border-radius: 8px;
     transition: ease 0.5s;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.275) 0px 7px 29px 0px;
 }
 
 .thumbnail-1:hover, .thumbnail-2:hover, .thumbnail-3:hover{
