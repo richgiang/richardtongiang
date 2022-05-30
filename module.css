@@ -47,7 +47,7 @@
     cursor: pointer;
     color: black;
     padding-bottom: 2vh;
-    width: 100%;
+    width: 100vw;
     padding-top: 2vh;
     padding-left: 3vw;
     background-color: white;
@@ -643,18 +643,18 @@
     background: 
     radial-gradient(
       circle at top left,
-      rgba(0, 102, 182, 0.3), 
-      transparent 600px
+      rgba(0, 102, 182, 0.4), 
+      transparent 30vw
     ),
     radial-gradient(
       circle at top right,
-      rgba(195, 100, 100, 0.3), 
-      transparent 600px
+      rgba(195, 100, 100, 0.4), 
+      transparent 30vw
     ),
     radial-gradient(
       circle at bottom,
-      rgba(78, 117, 102, 0.3), 
-      transparent 600px
+      rgba(78, 117, 102, 0.4), 
+      transparent 30vw
     );
 }
 
