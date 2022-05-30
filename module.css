@@ -634,3 +634,27 @@
     width: 100%;
 }
 
+/* Radial Gradient */
+
+.radial-gradient{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: 
+    radial-gradient(
+      circle at top left,
+      rgba(0, 102, 182, 0.35), 
+      transparent 600px
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(195, 100, 100, 0.35), 
+      transparent 600px
+    ),
+    radial-gradient(
+      circle at bottom,
+      rgba(78, 117, 102, 0.35), 
+      transparent 600px
+    );
+}
+
