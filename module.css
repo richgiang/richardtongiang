@@ -643,17 +643,17 @@
     background: 
     radial-gradient(
       circle at top left,
-      rgba(0, 102, 182, 0.4), 
+      rgba(0, 102, 182, 0.5), 
       transparent 30vw
     ),
     radial-gradient(
       circle at top right,
-      rgba(195, 100, 100, 0.4), 
+      rgba(195, 100, 100, 0.5), 
       transparent 30vw
     ),
     radial-gradient(
       circle at bottom,
-      rgba(78, 117, 102, 0.4), 
+      rgba(78, 117, 102, 0.5), 
       transparent 30vw
     );
 }

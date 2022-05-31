@@ -19,7 +19,7 @@
     /* border-radius: 0 50px 50px 0; */
     height: 100vh;
     width: 32.5vw;
-    flex-direction: row;
+    flex-direction: column;
     /* background-color: #EFEFEF; */
     /* border-bottom: 2px solid black; */
     box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 20px;
@@ -262,6 +262,14 @@
 
 /* EXTRAS & IDEAS */
 
+/* Development credit */
+
+.development-credit{
+    padding-top: 18vh;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 1vw;
+}
 
 
 
