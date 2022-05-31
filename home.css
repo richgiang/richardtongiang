@@ -265,7 +265,8 @@
 /* Development credit */
 
 .development-credit{
-    padding-top: 16.5vh;
+    position: absolute;
+    bottom: 3vh;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 200;
     font-size: 1vw;
