@@ -129,8 +129,8 @@
 }
 
 .project-title{
-    padding-bottom: 1.5vw;
-    font-size: 7vw; 
+    padding-bottom: 2vw;
+    font-size: 7.5vw; 
     font-family: Mirage;
 }
 
@@ -159,7 +159,7 @@
     padding-bottom: 2vh;
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    width: 14.75vw;
     height: 27.5vh;
     align-items: left;
     background-color: rgba(239, 239, 239, 0.5);
@@ -203,7 +203,7 @@
 .secondary-container-flex{
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 59vw;
     justify-content: center;
     padding-top: 3vh;
 }
@@ -265,7 +265,7 @@
 /* Development credit */
 
 .development-credit{
-    padding-top: 18vh;
+    padding-top: 16.5vh;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 200;
     font-size: 1vw;

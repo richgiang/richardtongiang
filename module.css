@@ -658,3 +658,39 @@
     );
 }
 
+
+/* Under construction */
+
+.construction-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    place-content: center;
+}
+
+.construction-message{
+    font-family: Mirage;
+    font-size: 2vw;
+    width: 50%;
+    padding-left: 25%;
+    text-align: center;
+}
+
+.back-button button{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.back-button button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
