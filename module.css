@@ -245,49 +245,33 @@
     color: black;
   }
 
-  /* Carousel1 */
+/* Theme Grid Crash */
 
-  .carousel1-image {
-    transition: all 0.9s;
+.theme-grid{
+    display: grid;
     width: 100%;
-    transform: translateX(0);
-  }
-  
-  .btn-left1,
-  .btn-right1 {
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    background-color: white;
-    border: none;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0.75;
-    transition: all 0.25s;
-    z-index: 1;
-  }
-  
-  .btn-left1:hover,
-  .btn-right1:hover {
-    opacity: 1;
-  }
-  
-  .btn-left1 {
-    top: 50%;
-    left: -1.5rem;
-    transform: translateY(-50%);
-  }
-  .btn-right1 {
-    top: 50%;
-    right: -1.5rem;
-    transform: translateY(-50%);
-  }
-  
-  .icon-left1,
-  .icon-right1 {
-    font-size: 2rem;
-    color: black;
-  }
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+}
+.grid-a{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-b{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid-c{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
 
 
 /* TLDR */
