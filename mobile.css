@@ -96,6 +96,26 @@
     padding-left: 5vw;
 }
 
+.mobile-contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.mobile-contact div{
+    padding-top: 2vh;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 3.5vw;
+}
+
+.mobile-contact div a{
+    text-decoration: none;
+    color: black;
+}
+
 
 @media screen and (max-width: 400px) {
     .home-container, .link-flex{
