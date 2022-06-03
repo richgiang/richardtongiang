@@ -679,6 +679,8 @@
     cursor: pointer;
 }
 
+/* Mobile Responsiveness */
+
 @media screen and (max-width: 480px) {
     .nav-container, .navbar-branch, .designs-back{
         display:none;
@@ -686,15 +688,23 @@
 
     .project-title-container{
         width: 90vw;
-        padding-left: 10%;
+        padding-left: 5%;
     }
 
     .design-title{
-        font-size: 20vw;
+        font-size: 15vw;
+    }
+
+    .header-container{
+        padding-top: 5vh;
     }
     .branch-subhead{
         font-size: 5vw;
         padding-bottom: 2.5vh;
+        width: 100%;
+    }
+    .project-description{
+        width: 100%;
     }
     .project-number{
         font-size: 5vw;
@@ -702,12 +712,13 @@
     .project-documentation-container{
         width: 90%;
         padding-left: 5%;
+        padding-top: 3.5vh;
     }
     .project-info-container{
         display: flex;
         flex-direction: column;
     }
-    .project-info-container h1, .project-info-container p,{
+    .project-info-container h1, .project-info-container p{
         font-size: 3.5vw;
     }
     .problem-statement{
@@ -719,13 +730,14 @@
     .callout-container{
         width: 90vw;
         font-size: 3.5vw;
+        padding: none;
     }
-    .callout-body-crash{
-        font-size: 4.5vw;
-        width: 80vw;
+    .callout-body-crash, .callout-body-kroger, .callout-body-carmen{
+        font-size: 6vw;
+        width: 80%;
     }
-    .callout-body-crash span{
-        font-size: 2.5vw;
+    .callout-body-crash span, .callout-body-kroger span, .callout-body-carmen span{
+        font-size: 4vw;
     }
     .documentation-text h1{
         font-size: 5vw;
@@ -741,11 +753,96 @@
         border-right: none;
     }
     .tldr{
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         width: 100%;
+        padding-bottom: 3.5vh;
     }
-    .tldr-description-crash{
+    .tldr span{
+        font-size: 2.5vw;
+    }
+    .tldr-description-crash, .tldr-description-carmen, .tldr-description-carmen-reverse, .tldr-description-crash-reverse, .tldr-description-kroger, .tldr-description-kroger-reverse{
         width: 100%;
         padding-left: none;
+        padding-top: 2.5vh;
+  
     }
+
+    .tldr-description-carmen-reverse{
+        border-right: none;
+        border-left: 2px solid #C36464;
+    }
+    .tldr-description-carmen-reverse p, .tldr-description-carmen p{
+        font-size: 3.5vw;
+        padding-left: 3vw;
+    }
+
+    .tldr-description-carmen span, .tldr-description-carmen-reverse span, .tldr-description-crash span, .tldr-description-kroger span, .tldr-description-crash-reverse span, .tldr-description-kroger-reverse span{
+        font-size: 2.5vw;
+    }
+
+    .tldr-body-crash, .tldr-body-kroger{
+        font-size: 3.5vw;
+    }
+    .takeaway-container{
+        flex-direction: column;
+    }
+    .takeaway-column{
+        width: 100%;
+    }
+    .takeaway-column h2{
+        font-size: 4.5vw;
+    }
+    .takeaway-column p{
+        font-size: 3.5vw
+    }
+    .arrow-container a{
+        font-size: 5vw;
+    }
+    .next-previous-container img{
+        width: 3.5vw;
+        height: 2.5vw;
+    }
+
+    .radial-gradient{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: 
+        radial-gradient(
+          circle at right 60%,
+          rgba(0, 102, 182, 0.5), 
+          transparent 50vw
+        ),
+        radial-gradient(
+          circle at left 20%,
+          rgba(195, 100, 100, 0.5), 
+          transparent 50vw
+        ),
+        radial-gradient(
+          circle at left 80%,
+          rgba(78, 117, 102, 0.5), 
+          transparent 50vw
+        );
+    }
+
+    .module-image{
+        padding-top: 3.5vh;
+    }
+
+    .itemized-module-container{
+        flex-direction: column;
+    }
+    .itemized-module-text h1{
+        font-size: 5vw;
+    }
+
+    .tldr-description-kroger{
+        padding-top: 2.5vh;
+    }
+    .kroger-border-left{
+        border-left: none;
+        border-top: 2px solid #0066B6;
+    }
+
+
 }
