@@ -678,3 +678,74 @@
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .nav-container, .navbar-branch, .designs-back{
+        display:none;
+    }
+
+    .project-title-container{
+        width: 90vw;
+        padding-left: 10%;
+    }
+
+    .design-title{
+        font-size: 20vw;
+    }
+    .branch-subhead{
+        font-size: 5vw;
+        padding-bottom: 2.5vh;
+    }
+    .project-number{
+        font-size: 5vw;
+    }
+    .project-documentation-container{
+        width: 90%;
+        padding-left: 5%;
+    }
+    .project-info-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-info-container h1, .project-info-container p,{
+        font-size: 3.5vw;
+    }
+    .problem-statement{
+        padding-bottom: none;
+    }
+    .module-container{
+        flex-direction: column;
+    }
+    .callout-container{
+        width: 90vw;
+        font-size: 3.5vw;
+    }
+    .callout-body-crash{
+        font-size: 4.5vw;
+        width: 80vw;
+    }
+    .callout-body-crash span{
+        font-size: 2.5vw;
+    }
+    .documentation-text h1{
+        font-size: 5vw;
+    }
+    .module-subhead{
+        font-size: 5vw;
+    }
+    .tldr-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .crash-border-right{
+        border-right: none;
+    }
+    .tldr{
+        font-size: 3.5vw;
+        width: 100%;
+    }
+    .tldr-description-crash{
+        width: 100%;
+        padding-left: none;
+    }
+}
