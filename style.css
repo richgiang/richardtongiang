@@ -193,7 +193,7 @@ html, body{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1vw;
     padding-top: 5%;
     text-align: left;
 }
@@ -202,7 +202,7 @@ html, body{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     line-height: 150%;
 }
 
@@ -237,7 +237,7 @@ html, body{
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
-    font-size: 1rem;
+    font-size: 1vw;
 }
 
 .info-container{
@@ -311,7 +311,7 @@ html, body{
     font-style: normal;
     letter-spacing: 120%;
     line-height: 150%;
-    font-size: 1rem;
+    font-size: 1vw;
 }
 .branch-thin{
     font-family: Nav;
