@@ -627,18 +627,18 @@
     background: 
     radial-gradient(
       circle at top left,
-      rgba(0, 102, 182, 0.5), 
-      transparent 30vw
+      rgba(0, 102, 182, 0.7), 
+      transparent 50vw
     ),
     radial-gradient(
       circle at top right,
-      rgba(195, 100, 100, 0.5), 
-      transparent 30vw
+      rgba(195, 100, 100, 0.7), 
+      transparent 50vw
     ),
     radial-gradient(
       circle at bottom,
-      rgba(78, 117, 102, 0.5), 
-      transparent 30vw
+      rgba(78, 117, 102, 0.7), 
+      transparent 50vw
     );
 }
 

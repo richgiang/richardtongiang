@@ -1,27 +1,14 @@
 /* Home page introduction */
 
 
-/* .mask{
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.5);
-} */
 
 
 .home-container{
     position: fixed;
     display: flex;
-    /* border-radius: 0 50px 50px 0; */
     height: 100vh;
     width: 32.5vw;
     flex-direction: column;
-    /* background-color: #EFEFEF; */
-    /* border-bottom: 2px solid black; */
     box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 20px;
 }
 .home-container img{
@@ -87,7 +74,7 @@
 
 /* Project Links Hover */
 
-.links { visibility: hidden; }
+/* .links { visibility: hidden; }
 
 
 .links > * { visibility: visible; }
@@ -101,25 +88,24 @@
 
 .links > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms, 0ms, 0ms, 0ms; letter-spacing: .2vw;}
 
+*/
 
-#design1:hover, #carmen{
+#carmen{
     color: #C36464;
 }
-#design2:hover, #crash{
+#crash{
     color: #4E7566;
 }
-#design3:hover, #kroger{
+#kroger{
     color: #0066B6;
-}
+} 
 
-.project-title a{
+.project-title div a{
     text-decoration: none;
     color: black;
+    line-height: 75%;
 }
 
-/* .custom-cursor:hover{
-    cursor: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='a' xmlns='http://www.w3.org/2000/svg' height='48' width='48' viewBox='0 0 329.78 329.78'%3E%3Cdefs%3E%3Cstyle%3E.b%7Bfill:none;stroke:%23000;stroke-miterlimit:10;stroke-width:32px;%7D%3C/style%3E%3C/defs%3E%3Cline class='b' x1='81.52' y1='14' x2='315.78' y2='14'/%3E%3Cline class='b' x1='315.78' y1='234.26' x2='315.78' y2='0'/%3E%3Cline class='b' x1='315.78' y1='14' x2='9.9' y2='319.88'/%3E%3C/svg%3E") 24 24, pointer;
-} */
 
 .custom-cursor:hover{
     cursor: pointer;
@@ -131,19 +117,79 @@
     font-size: 1vw;
 }
 
+
 .project-title{
-    padding-bottom: 2vw;
-    font-size: 7.5vw; 
+    padding-bottom: 4vh;
+    font-size: 4.5vw; 
     font-family: Mirage;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(100, 100, 111, 0.275) 0px 7px 29px 0px;
+    border-radius: 8px;
+    transition: ease 0.5s;
+    padding-left: 2.5vw;
+    padding-top: 4vh;
+    width: 57.5vw;
+}
+
+.project-information{
+    width: 40vw;
+}
+
+.project-image-flex{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
+.project-image{
+    padding: 0;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-title:hover{
+    transform: scale(1.015);
+    cursor: pointer;
+}
+
+.project-subject-flex{
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.project-subject{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 300;
+    font-size: 0.9vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 20px;
+    border: 1px black solid;
+    margin-right: 0.25vw;
+    margin-left: 0.25vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.project-title-description{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-size: 1.15vw;
 }
 
 
-/* LINES */
 
-.line-1{
-    width: 2px;
-    background-color: black;
-}
 
 /* Secondary projects styling */
 
@@ -165,14 +211,15 @@
     width: 14.75vw;
     height: 28vh;
     align-items: left;
-    background-color: rgba(239, 239, 239, 0.5);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
     border-radius: 8px;
     transition: ease 0.5s;
     box-shadow: rgba(100, 100, 111, 0.275) 0px 7px 29px 0px;
 }
 
 .thumbnail-1:hover, .thumbnail-2:hover, .thumbnail-3:hover{
-    transform: scale(105%);
+    transform: scale(1.025);
     cursor: pointer;
 }
 
@@ -208,7 +255,7 @@
     flex-direction: column;
     width: 59vw;
     justify-content: center;
-    padding-top: 3vh;
+    padding-top: 7.5vh;
 }
 .secondary-container-header{
     font-family: neue-haas-grotesk-display, sans-serif;
