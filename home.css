@@ -132,6 +132,7 @@
     padding-left: 2.5vw;
     padding-top: 4vh;
     width: 57.5vw;
+    align-items: center;
 }
 
 .project-information{
@@ -145,7 +146,7 @@
     padding-right: 2vw;
     align-items: center;
     justify-content: center;
-    width: 40vw;
+    width: 30vw;
 }
 .project-image{
     padding: 0;
@@ -211,7 +212,7 @@
     width: 14.75vw;
     height: 28vh;
     align-items: left;
-    background-color: rgba(255, 255, 255, .15);  
+    background-color: rgba(255, 255, 255, 0.15);  
     backdrop-filter: blur(5px);
     border-radius: 8px;
     transition: ease 0.5s;
