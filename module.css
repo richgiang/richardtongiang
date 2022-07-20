@@ -94,8 +94,9 @@
 }
 
 .module-subhead{
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 550;
+    /* font-family: neue-haas-unica, sans-serif;
+    font-weight: 600; */
+    font-family: Mirage-Bold;
     font-style: normal;
     font-size: 1.25vw;
 }
