@@ -1,16 +1,16 @@
-/* .table{
+.table{
     position: fixed;
     left: 30%;
     top: 6%;
     z-index: -1;
-} */
+}
 
 
 
 
 
 /* Home page chopsticks */
-/* .chopsticks img{
+.chopsticks img{
     position: fixed;
     top: 12%;
     left: 22%;
@@ -21,11 +21,11 @@
 .chopsticks img:hover{
     transform: rotate(3deg);
     cursor: pointer;
-} */
+}
 
 /* Home page table */
 
-/* .table-grid{
+.table-grid{
     padding-top: 13vh;
     padding-left: 25vw;
     display: grid;
@@ -86,26 +86,26 @@
     .dish-3:hover,.dish-5:hover{
     transform: rotate(5deg) translateY(-10px);
     cursor: pointer;
-} */
+}
 
 /* Home page slideout */
 
 
-/* .slideout {
+.slideout {
     position: fixed;
     z-index: 10000;
     background-color: none;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
     height: 100%;
 }
 
 .slide-menu-right {
     left: -50%;
-    top: 8%;
+    top: 5%;
     width: 50%;
     height: 100%;
     z-index: 10000000;
@@ -123,9 +123,9 @@
 
 .rotating img{
     animation: rotation 12s infinite linear;
-} */
+}
 
-/* .project-intro-text{
+.project-intro-text{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -137,4 +137,4 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
-} */
+}
