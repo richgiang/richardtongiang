@@ -215,6 +215,7 @@
 .subpage-header{
     font-family: Mirage-Bold;
     font-size: 5vw;
+    text-align: center;
 }
 .subhead{
     font-family: Mirage;
@@ -253,8 +254,8 @@
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-size: 0.65vw;
-    text-align: right;
-    width: 60vw;
+    text-align: left;
+    width: 40vw;
     padding-top: 1vh;
 }
 
