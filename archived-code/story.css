@@ -1,0 +1,297 @@
+@font-face{
+    font-family: Mirage;
+    src: url(../fonts/MADE\ Mirage\ Regular\ PERSONAL\ USE.otf)
+}
+@font-face{
+    font-family: Mirage-Thin;
+    src: url(../fonts/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf)
+}
+@font-face{
+    font-family: Mirage-Medium;
+    src: url(../fonts/MADE\ Mirage\ Medium\ PERSONAL\ USE.otf)
+}
+@font-face{
+    font-family: Mirage-Bold;
+    src: url(../fonts/MADE\ Mirage\ Bold\ PERSONAL\ USE.otf)
+}
+
+
+.signature{
+    display: block;
+    position: fixed;
+    font-family: Mirage-Thin;
+    font-size: 1.75vw;
+    cursor: pointer;
+    color: black;
+    /* border-bottom: 2px solid black; */
+    padding-bottom: 2vh;
+    width: 100vw;
+    padding-top: 3vh;
+    padding-left: 3vw;
+    z-index: 100;
+}
+.signature a{
+    text-decoration: none;
+    color: black;
+}
+
+.back{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: -3%;
+    transform: rotate(270deg);
+    font-family: Mirage-Thin;
+    font-size: 5vh;
+    transition: letter-spacing .75s;
+    z-index: 100000;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+}
+.back:hover{
+    letter-spacing: 0.2vh;
+    font-family: Mirage;
+}
+
+.table{
+    position: fixed;
+    left: 30.5%;
+    top: 5%;
+    z-index: -1;
+}
+
+
+/* Intro styling */
+.intro-container{
+    width: 27.5vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3vw;
+}
+.intro-heading{
+    font-family: Mirage-Bold;
+    font-style: italic;
+    font-size: 4vw;
+    width: 100%;
+    padding-bottom: 2vh;
+}
+.intro-subhead{
+    font-family: Mirage-Bold;
+    font-size: 1.25vw;
+    padding-bottom: 1vh;
+}
+.intro-body{
+    font-family: neue-unica, sans-serif;
+    font-weight: 300;
+    font-size: 0.75vw;
+}
+
+
+
+/* Home page table */
+
+.table-grid{
+    padding-top: 13vh;
+    padding-left: 25vw;
+    display: grid;
+    width: 68vw;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    z-index: 100000000000000;
+    grid-gap: none;
+}
+
+.dish-1{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.dish-2{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.dish-3{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.dish-4{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-top: 60%;
+}
+.dish-5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.dish-1, .dish-2, .dish-3, .dish-4, .dish-5{
+    transition: ease .5s;
+}
+
+.dish-1:hover, .dish-4:hover, .dish-2:hover{
+    transform: rotate(-5deg) translateY(-10px);
+    cursor: pointer;
+}
+    .dish-3:hover,.dish-5:hover{
+    transform: rotate(5deg) translateY(-10px);
+    cursor: pointer;
+}
+
+/* Home page slideout */
+
+
+.slideout {
+    position: fixed;
+    z-index: 10000;
+    background-color: none;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+    height: 100%;
+}
+
+.slide-menu-right {
+    left: -50%;
+    top: 5%;
+    width: 50%;
+    height: 100%;
+    z-index: 10000000;
+    overflow: hidden;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(359deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+.rotating img{
+    animation: rotation 8s infinite linear;
+}
+
+.project-intro-text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.project-intro-image{
+    z-index: -1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+/* Subpage styling */
+
+.padding5{
+    padding-bottom: 5vh;
+}
+.padding3{
+    padding-bottom: 3vh;
+}
+
+.subpage-header{
+    font-family: Mirage-Bold;
+    font-size: 5vw;
+}
+.subhead{
+    font-family: Mirage;
+    font-size: 1vw;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    padding-left: 20vw;
+    padding-top: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    width: 40vw;
+}
+
+.section-header{
+    font-family: Mirage-Bold;
+    font-size: 2vw;
+}
+
+.body-text{
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-size: .75vw;
+    margin: 0 0 24px; 
+    text-align: justify; 
+    text-justify: inter-word; 
+}
+
+.caption{
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-size: 0.65vw;
+    text-align: right;
+    width: 60vw;
+    padding-top: 1vh;
+}
+
+
+
+/* Flexboxes */
+ 
+.horizontal-flex{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    align-items: top;
+    justify-content: center;
+}
+
+.vertical-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontal-flex h1{
+    font-family: Mirage-Bold;
+    font-size: 1vw;
+}
+.horizontal-flex p{
+    font-family: neue-haas-unica, sans-serif;
+    font-size: 0.75vw;
+    font-weight: 300;
+}
+
+.horizontal-flex img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.flex-item{
+    width: 20vw;
+    margin: 1vw;
+}
