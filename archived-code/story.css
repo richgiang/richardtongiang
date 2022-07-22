@@ -15,6 +15,10 @@
     src: url(../fonts/MADE\ Mirage\ Bold\ PERSONAL\ USE.otf)
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .signature{
     display: block;
@@ -39,7 +43,7 @@
     display: block;
     position: fixed;
     top: 50%;
-    left: -3%;
+    left: -4%;
     transform: rotate(270deg);
     font-family: Mirage-Thin;
     font-size: 5vh;
@@ -89,7 +93,8 @@
 .intro-body{
     font-family: neue-unica, sans-serif;
     font-weight: 300;
-    font-size: 0.75vw;
+    font-size: 0.9vw;
+    line-height: 1.3;
 }
 
 
@@ -233,7 +238,7 @@
 }
 
 .section{
-    width: 40vw;
+    width: 50vw;
 }
 
 .section-header{
@@ -244,7 +249,8 @@
 .body-text{
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
-    font-size: .75vw;
+    font-size: .9vw;
+    line-height: 1.3;
     margin: 0 0 24px; 
     text-align: justify; 
     text-justify: inter-word; 
@@ -253,7 +259,7 @@
 .caption{
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
-    font-size: 0.65vw;
+    font-size: 0.75vw;
     text-align: left;
     width: 40vw;
     padding-top: 1vh;
@@ -282,7 +288,7 @@
 }
 .horizontal-flex p{
     font-family: neue-haas-unica, sans-serif;
-    font-size: 0.75vw;
+    font-size: 0.9vw;
     font-weight: 300;
 }
 
@@ -295,4 +301,14 @@
 .flex-item{
     width: 20vw;
     margin: 1vw;
+}
+
+/* Callout */
+
+.block-quote{
+    display: block;
+    font-family: Mirage;
+    padding-left: 15%;
+    font-size: 1.5vw;
+    border-left: 2px black;
 }
