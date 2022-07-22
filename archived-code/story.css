@@ -312,3 +312,13 @@ a {
     font-size: 1.5vw;
     border-left: 2px black;
 }
+
+.callout{
+    font-family: nue-haas-unica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9vw;
+}
+
+.object-fit{
+    object-fit: fill;
+}
