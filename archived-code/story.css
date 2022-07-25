@@ -348,3 +348,77 @@ li{
     font-style: italic;
     font-size: 0.9vw;
 }
+
+
+/* Module */
+
+.module{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(100, 100, 111, 0.275) 0px 7px 29px 0px;
+    border-radius: 8px;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.module-title{
+    font-size: 2vw;
+    font-family: Mirage;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.module-image{
+    width: 90%;
+    padding-bottom: 2.5vh;
+}
+
+.module-description{
+    padding: 2.5vw;
+    font-family: neue-haas-unica, sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+/* Check back later */
+
+.preview-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-message{
+    width: 30vw;
+    font-family: Mirage;
+    font-size: 1.25vw;
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+.return-button button{
+    background-color: white;
+    border: 2px black solid;
+    color: black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 200;
+    border-radius: 30px;
+
+}
+
+.return-button button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
